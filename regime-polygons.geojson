@@ -1,0 +1,7 @@
+{ "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "regime": "canadian", "note": "COARSE v0 — southern BC / Gulf Islands; refine against the international maritime boundary." },
+      "geometry": { "type": "Polygon", "coordinates": [[[-124.0,48.7],[-122.9,48.7],[-122.9,49.5],[-124.0,49.5],[-124.0,48.7]]] } },
+    { "type": "Feature", "properties": { "regime": "inland", "note": "COARSE v0 — US San Juans/Puget Sound; refine against 33 CFR 80 demarcation lines." },
+      "geometry": { "type": "Polygon", "coordinates": [[[-123.2,47.0],[-122.3,47.0],[-122.3,48.65],[-123.2,48.65],[-123.2,47.0]]] } }
+  ] }

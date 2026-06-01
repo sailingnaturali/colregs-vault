@@ -1,0 +1,10 @@
+# Provenance for the colregs vault. See README for the pending-review status.
+sources:
+  - title: "USCG Navigation Rules and Regulations Handbook"
+    regimes: [international, inland]
+    license: "US Government work — public domain"
+    status: PENDING_TRANSCRIPTION
+  - title: "Canadian Collision Regulations (Canada Shipping Act)"
+    regimes: [canadian]
+    license: "Crown copyright — reproducible under the Reproduction of Federal Law Order"
+    status: PENDING_TRANSCRIPTION

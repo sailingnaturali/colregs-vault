@@ -1,0 +1,5 @@
+PENDING: transcribe US Inland Navigation Rules text and any modifications from the
+USCG Navigation Rules and Regulations Handbook (public domain). Do NOT assume the
+Inland rules are identical to the International (COLREGS 72) text — several differ.
+The engine selects rule prose by regime, so an `inland` file is required for each
+rule before Inland queries return Inland-specific text.

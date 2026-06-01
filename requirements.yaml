@@ -1,0 +1,44 @@
+version: 1
+# ⚠️ UNVERIFIED DRAFT — pending Bryan's line-by-line review against the rule text.
+entries:
+  - id: anchored-under-50m-night
+    match: { situation: anchored, condition: night, length_lt: 50 }
+    lights: [{ id: anchor_light, desc: "all-round white, where best seen", rule: "Rule 30(a)" }]
+    forbids: [sidelights, sternlight, masthead_steaming, tricolor]
+  - id: anchored-under-50m-day
+    match: { situation: anchored, condition: day, length_lt: 50 }
+    shapes: [{ id: ball, desc: "one ball, forward", rule: "Rule 30(a)" }]
+  - id: power-under-50m-night
+    match: { situation: power_driven, condition: night, length_lt: 50 }
+    lights:
+      - { id: masthead_steaming, desc: "masthead light, forward", rule: "Rule 23(a)(i)" }
+      - { id: sidelights, desc: "red port / green starboard", rule: "Rule 23(a)(iii)" }
+      - { id: sternlight, desc: "white sternlight", rule: "Rule 23(a)(iv)" }
+    forbids: [tricolor]
+  - id: motorsailing-night
+    match: { situation: motorsailing, condition: night }
+    lights:
+      - { id: masthead_steaming, desc: "masthead light, forward", rule: "Rule 25(e)+23(a)" }
+      - { id: sidelights, desc: "red port / green starboard", rule: "Rule 23(a)(iii)" }
+      - { id: sternlight, desc: "white sternlight", rule: "Rule 23(a)(iv)" }
+    forbids: [tricolor]
+  - id: motorsailing-day
+    match: { situation: motorsailing, condition: day }
+    shapes: [{ id: cone_apex_down, desc: "conical shape, apex downwards, forward", rule: "Rule 25(e)" }]
+  - id: sailing-under-20m-night
+    match: { situation: sailing, condition: night, length_lt: 20 }
+    light_options:
+      - [{ id: sidelights, desc: "red/green", rule: "Rule 25(a)" }, { id: sternlight, desc: "white", rule: "Rule 25(a)" }]
+      - [{ id: tricolor, desc: "combined masthead tricolor", rule: "Rule 25(b)" }]
+    forbids: [masthead_steaming]
+  - id: not-under-command-night
+    match: { situation: not_under_command, condition: night }
+    lights:
+      - { id: all_round_red_upper, desc: "all-round red", rule: "Rule 27(a)(i)" }
+      - { id: all_round_red_lower, desc: "all-round red, below the first", rule: "Rule 27(a)(i)" }
+  - id: constrained-by-draught-night
+    match: { situation: constrained_by_draught, condition: night }
+    lights:
+      - { id: all_round_red_1, desc: "all-round red", rule: "Rule 28" }
+      - { id: all_round_red_2, desc: "all-round red", rule: "Rule 28" }
+      - { id: all_round_red_3, desc: "all-round red", rule: "Rule 28" }
