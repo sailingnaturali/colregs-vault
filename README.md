@@ -19,6 +19,19 @@ The server reads this directory via the `COLREGS_VAULT_PATH` environment variabl
 - `regime-polygons.geojson` — coarse PNW polygons resolving which regime applies by position.
 - `manifest.yaml` — source provenance.
 
+## Rebuilding the vault
+
+Requires `uv` and poppler's `pdftotext` (`brew install poppler`). The handbook PDF is not
+committed here (7.5 MB; `manifest.yaml` records its SHA-256) — pass its path:
+
+```bash
+uv run python scripts/build_vault.py --handbook "/path/to/Nav Rules Handbook_Corrected_08-12-2024.pdf"
+```
+
+Add `--fetch --ecfr-date YYYY-MM-DD` to re-download the XML sources into `sources/` first.
+The build is deterministic and all-or-nothing: it validates the complete rule set before
+writing anything, and preserves `verified: true` flags only where prose is unchanged.
+
 ## Provenance & licensing
 
 - **International (COLREGS 72)** — extracted from the *USCG Navigation Rules and Regulations
