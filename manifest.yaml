@@ -1,10 +1,23 @@
-# Provenance for the colregs vault. See README for the pending-review status.
+generated_by: scripts/build_vault.py — do not hand-edit
+generated: '2026-06-06'
 sources:
-  - title: "USCG Navigation Rules and Regulations Handbook"
-    regimes: [international, inland]
-    license: "US Government work — public domain"
-    status: PENDING_TRANSCRIPTION
-  - title: "Canadian Collision Regulations (Canada Shipping Act)"
-    regimes: [canadian]
-    license: "Crown copyright — reproducible under the Reproduction of Federal Law Order"
-    status: PENDING_TRANSCRIPTION
+- title: USCG Navigation Rules and Regulations Handbook
+  file: Nav Rules Handbook_Corrected_08-12-2024.pdf
+  sha256: dcc7eb6d279be614a4fd4e18cbea6bbf55b44f0322ba0a0a07f2f0265dd633e2
+  regimes:
+  - international
+  license: US Government work — public domain
+- title: 33 CFR Parts 83-88 (Inland Navigation Rules)
+  url_template: https://www.ecfr.gov/api/versioner/v1/full/{date}/title-33.xml?part={part}
+  ecfr_date: '2026-06-01'
+  retrieved: '2026-06-06'
+  regimes:
+  - inland
+  license: US Government work — public domain
+- title: Collision Regulations, C.R.C., c. 1416 (incl. Canadian Modifications)
+  url: https://laws-lois.justice.gc.ca/eng/XML/C.R.C.,_c._1416.xml
+  last_amended: '2023-06-07'
+  retrieved: '2026-06-06'
+  regimes:
+  - canadian
+  license: Crown copyright — reproducible under the Reproduction of Federal Law Order

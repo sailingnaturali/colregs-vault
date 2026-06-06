@@ -1,6 +1,0 @@
-PENDING: transcribe Canadian Collision Regulations rule text and the Canadian
-Modifications from the Canada Shipping Act regulations (Crown copyright, reproducible
-under the Reproduction of Federal Law Order). Do NOT assume the Canadian rules are
-identical to the International (COLREGS 72) text — the Canadian Modifications change
-several. The engine selects rule prose by regime, so a `canadian` file is required
-for each rule before Canadian queries return Canada-specific text.
