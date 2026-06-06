@@ -16,10 +16,10 @@ def _text(el: ET.Element | None) -> str:
     return re.sub(r"\s+", " ", "".join(el.itertext())).strip()
 
 
-def _paragraphs(div8: ET.Element) -> list[str]:
+def _paragraphs(container: ET.Element) -> list[str]:
     out: list[str] = []
-    for child in div8:
-        if child.tag == "P":
+    for child in container:
+        if child.tag in ("P", "FP", "FP-2", "HD3"):
             t = _text(child)
             if t:
                 out.append(t)
@@ -30,15 +30,25 @@ def _paragraphs(div8: ET.Element) -> list[str]:
                 rows.append(" | ".join(c for c in cells if c))
             if rows:
                 out.append("\n".join(rows))
-        elif child.tag == "HD3":
+        elif child.tag in ("EXTRACT", "DIV"):
+            out.extend(_paragraphs(child))
+        elif child.tag in ("HEAD", "HED", "CITA"):
+            # HEAD is the section title (emitted by callers); CITA is citation metadata;
+            # HED is the label heading inside NOTE blocks (e.g. "Note:").
+            # All are intentionally skipped here.
+            pass
+        elif child.tag == "img":
+            # Formula images (e.g. §84.19 high-speed craft formula) have no text
+            # alternative in the eCFR XML. This is an accepted content loss; the
+            # omission is flagged in the build report's annex-table note for human review.
+            pass
+        elif child.tag == "NOTE":
+            # NOTE blocks (HED + P) carry regulatory notes; recurse to capture P children.
+            out.extend(_paragraphs(child))
+        else:
             t = _text(child)
             if t:
-                out.append(t)
-        elif child.tag == "FP-2":
-            t = _text(child)
-            if t:
-                out.append(t)
-        # CITA (citation metadata) and HEAD are intentionally skipped
+                raise ValueError(f"_paragraphs: unexpected tag <{child.tag}> with text content")
     return out
 
 

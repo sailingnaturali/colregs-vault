@@ -60,3 +60,11 @@ def test_annex_2_is_reserved_stub():
     assert doc.number == "Annex II"
     assert doc.title == "[Reserved]"
     assert "reserved" in doc.prose.lower()
+
+
+def test_annex_1_extract_blocks_are_captured():
+    xml = (SOURCES / "ecfr-title33-part84.xml").read_text()
+    doc = parse_annex(xml, 84, "https://example.test", "2026-06-06")
+    # EXTRACT blocks hold the intensity/chromaticity values; without them the
+    # prose was ~14,100 chars. With them it must be substantially longer.
+    assert len(doc.prose) > 15000
