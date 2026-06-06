@@ -1,0 +1,448 @@
+NAVIGATION RULES
+INTERNATIONAL—INLAND
+
+1
+
+—INTERNATIONAL—
+General
+
+PART A—GENERAL
+Rule 1
+Application
+(a) These Rules shall apply to all vessels upon the high seas and in all waters
+connected therewith navigable by seagoing vessels.
+
+(b) Nothing in these Rules shall interfere with the operation of special rules
+made by an appropriate authority for roadsteads, harbors, rivers, lakes or inland
+waterways connected with the high seas and navigable by seagoing vessels. Such
+special rules shall conform as closely as possible to these Rules.
+
+(c) Nothing in these Rules shall interfere with the operation of any special rules
+made by the Government of any State with respect to additional station or signal
+lights, shapes or whistle signals for ships of war and vessels proceeding under
+convoy, or with respect to additional station or signal lights or shapes for fishing
+vessels engaged in fishing as a fleet. These additional station or signal lights,
+shapes or whistle signals shall, so far as possible, be such that they cannot be
+mistaken for any light, shape or signal authorized elsewhere under these Rules ‡.
+(d) Traffic separation schemes may be adopted by the Organization for the
+purpose of these Rules.
+
+‡ Submarines may display, as a distinctive means of identification, an intermittent flashing amber
+(yellow) beacon with a sequence of one flash per second for three (3) seconds followed by a three
+(3) second off-period. For other examples, see https://www.navcen.uscg.gov/navigation-rulesamalgamated#specialrules.
+
+2
+
+—INLAND—
+
+General
+33 CFR 83
+SUBPART A—GENERAL
+Rule 1
+Application
+
+§ 83.01
+(a) These Rules apply to all vessels upon the inland waters of the United States,
+and to vessels of the United States on the Canadian waters of the Great Lakes to
+the extent that there is no conflict with Canadian law. The regulations in this
+subchapter (subchapter E, 33 CFR parts 83 through 90) have preemptive effect
+over State or local regulation within the same field.
+(b) (i)These Rules constitute special rules made by an appropriate authority
+within the meaning of Rule 1(b) of the International Regulations for
+Preventing Collisions at Sea, 1972, including annexes currently in force for
+the United States (“International Regulations”).
+(ii) All vessels complying with the construction and equipment
+requirements of the International Regulations are considered to be in
+compliance with these Rules.
+(c) Nothing in these Rules shall interfere with the operation of any special rules
+made by the Secretary of the Navy with respect to additional station or signal
+lights and shapes or whistle signals for ships of war and vessels proceeding under
+convoy, or by the Secretary with respect to additional station or signal lights and
+shapes for fishing vessels engaged in fishing as a fleet. These additional station or
+signal lights and shapes or whistle signals shall, so far as possible, be such that
+they cannot be mistaken for any light, shape, or signal authorized elsewhere under
+these Rules. Notice of such special rules shall be published in the Federal Register
+and, after the effective date specified in such notice, they shall have effect as if
+they were a part of these Rules ‡.
+(d) Traffic separation schemes may be established for the purposes of these
+Rules. Vessel traffic service regulations may be in effect in certain areas.
+
+‡ Submarines may display, as a distinctive means of identification, an intermittent flashing amber
+
+(yellow) beacon with a sequence of one flash per second for three (3) seconds followed by a three
+(3) second off-period. For other examples, see https://www.navcen.uscg.gov/navigation-rulesamalgamated#specialrules.
+
+3
+
+—INTERNATIONAL—
+General
+
+Rule 1—CONTINUED
+(e) Whenever the Government concerned shall have determined that a vessel
+of special construction or purpose cannot comply fully with the provisions of any
+of these Rules with respect to the number, position, range or arc of visibility of
+lights or shapes, as well as to the disposition and characteristics of sound-signaling
+appliances, such vessel shall comply with such other provisions in regard to the
+number, position, range or arc of visibility of lights or shapes, as well as to the
+disposition and characteristics of sound-signaling appliances, as her Government
+shall have determined to be the closest possible compliance with these Rules in
+respect to that vessel.
+
+Rule 2
+Responsibility
+(a) Nothing in these Rules shall exonerate any vessel, or the owner, master or
+crew thereof, from the consequences of any neglect to comply with these Rules
+or of the neglect of any precaution which may be required by the ordinary practice
+of seamen, or by the special circumstances of the case.
+(b) In construing and complying with these Rules due regard shall be had to
+all dangers of navigation and collision and to any special circumstances, including
+the limitations of the vessels involved, which may make a departure from these
+Rules necessary to avoid immediate danger.
+
+4
+
+—INLAND—
+General
+
+Rule 1—CONTINUED
+(e) Whenever the Secretary determines that a vessel or class of vessels of special
+construction or purpose cannot comply fully with the provisions of any of these
+Rules with respect to the number, position, range, or arc of visibility of lights or
+shapes, as well as to the disposition and characteristics of sound-signaling
+appliances, the vessel shall comply with such other provisions in regard to the
+number, position, range, or arc of visibility of lights or shapes, as well as to the
+disposition and characteristics of sound-signaling appliances, as the Secretary
+shall have determined to be the closest possible compliance with these Rules. The
+Secretary may issue a certificate of alternative compliance for a vessel or class of
+vessels specifying the closest possible compliance with these Rules. The Secretary
+of the Navy shall make these determinations and issue certificates of alternative
+compliance for vessels of the Navy.
+(f) The Secretary may accept a certificate of alternative compliance issued by a
+contracting party to the International Regulations if it determines that the
+alternative compliance standards of the contracting party are substantially the
+same as those of the United States.
+(g) The operator of each self-propelled vessel 12 meters or more in length shall
+carry, on board and maintain for ready reference, a copy of these Rules *.
+
+Rule 2
+Responsibility
+
+§ 83.02
+(a) Nothing in these Rules shall exonerate any vessel, or the owner, master, or
+crew thereof, from the consequences of any neglect to comply with these Rules
+or of the neglect of any precaution which may be required by the ordinary practice
+of seamen, or by the special circumstances of the case.
+(b) In construing and complying with these Rules due regard shall be had to all
+dangers of navigation and collision and to any special circumstances, including
+the limitations of the vessels involved, which may make a departure from these
+Rules necessary to avoid immediate danger.
+
+* This Handbook or similar facsimiles of the Navigation Rules, such as those published by the
+
+NOAA’s Office of Coast Survey, maybe used to meet this requirement. For the USCG policy on
+the use of electronic charts and publications to meet U.S. carriage requirements see the USCG
+Navigation and Vessel Inspection Circular 01-16 CH-2 at https://www.dco.uscg.mil/NVIC.
+
+5
+
+—INTERNATIONAL—
+General
+
+Rule 3
+General Definitions
+For the purpose of these Rules, except where the context otherwise requires:
+(a) The word vessel includes every description of water craft, including nondisplacement craft, WIG craft and seaplanes, used or capable of being used as a
+means of transportation on water.
+(b) The term power-driven vessel means any vessel propelled by machinery.
+(c) The term sailing vessel means any vessel under sail provided that propelling
+machinery, if fitted, is not being used.
+(d) The term vessel engaged in fishing means any vessel fishing with nets, lines,
+trawls or other fishing apparatus which restrict maneuverability, but does not
+include a vessel fishing with trolling lines or other fishing apparatus which do not
+restrict maneuverability.
+(e) The word seaplane includes any aircraft designed to maneuver on the water.
+(f) The term vessel not under command means a vessel which through some
+exceptional circumstance is unable to maneuver as required by these Rules and is
+therefore unable to keep out of the way of another vessel.
+(g) The term vessel restricted in her ability to maneuver means a vessel which from
+the nature of her work is restricted in her ability to maneuver as required by these
+Rules and is therefore unable to keep out of the way of another vessel. The term
+vessels restricted in their ability to maneuver shall include but not be limited to:
+(i) a vessel engaged in laying, servicing or picking up a navigation mark,
+submarine cable or pipeline;
+(ii) a vessel engaged in dredging, surveying or underwater operations;
+(iii) a vessel engaged in replenishment or transferring persons, provisions
+or cargo while underway;
+(iv) a vessel engaged in the launching or recovery of aircraft;
+(v) a vessel engaged in mine clearance operations;
+(vi) a vessel engaged in a towing operation such as severely restricts the
+towing vessel and her tow in their ability to deviate from their course.
+(h) The term vessel constrained by her draft means a power-driven vessel which,
+because of her draft in relation to the available depth and width of navigable water
+is severely restricted in her ability to deviate from the course she is following.
+
+6
+
+—INLAND—
+General
+
+Rule 3
+General definitions
+
+§ 83.03
+For the purpose of these Rules and Subchapter E ‡, except where the context
+otherwise requires:
+(a) The word vessel includes every description of water craft, including nondisplacement craft, WIG craft and seaplanes, used or capable of being used as a
+means of transportation on water.
+(b) The term power-driven vessel means any vessel propelled by machinery.
+(c) The term sailing vessel means any vessel under sail provided that propelling
+machinery, if fitted, is not being used.
+(d) The term vessel engaged in fishing means any vessel fishing with nets, lines,
+trawls, or other fishing apparatus which restricts maneuverability, but does not
+include a vessel fishing with trolling lines or other fishing apparatus which do not
+restrict maneuverability.
+(e) The word seaplane includes any aircraft designed to maneuver on the water.
+(f) The term vessel not under command means a vessel which through some
+exceptional circumstance is unable to maneuver as required by these Rules and is
+therefore unable to keep out of the way of another vessel.
+(g) The term vessel restricted in her ability to maneuver means a vessel which, from
+the nature of her work, is restricted in her ability to maneuver as required by these
+Rules and is therefore unable to keep out of the way of another vessel. The term
+vessels restricted in their ability to maneuver include, but are not limited to:
+(i) A vessel engaged in laying, servicing or picking up a navigation mark,
+submarine cable, or pipeline;
+(ii) a vessel engaged in dredging, surveying, or underwater operations;
+(iii) a vessel engaged in replenishment or transferring persons, provisions,
+or cargo while underway;
+(iv) a vessel engaged in the launching or recovery of aircraft;
+(v) a vessel engaged in mine clearance operations;
+(vi) a vessel engaged in a towing operation such as severely restricts the
+towing vessel and her tow in their ability to deviate from their course.
+(h) [Reserved]
+
+‡ Parts 83-90 of Title 33 Code of Federal Regulations.
+
+7
+
+—INTERNATIONAL—
+General
+
+Rule 3—CONTINUED
+(i) The word underway means that a vessel is not at anchor, or made fast to the
+shore, or aground.
+(j) The words length and breadth of a vessel mean her length overall and greatest
+breadth.
+(k) Vessels shall be deemed to be in sight of one another only when one can
+be observed visually from the other.
+(l) The term restricted visibility means any condition in which visibility is restricted
+by fog, mist, falling snow, heavy rainstorms, sandstorms or any other similar
+causes.
+(m) The term Wing-In-Ground (WIG) craft means a multimodal craft which, in
+its main operational mode, flies in close proximity to the surface by utilizing
+surface-effect action.
+
+8
+
+—INLAND—
+General
+
+Rule 3—CONTINUED
+(i) The word underway means that a vessel is not at anchor, or made fast to the
+shore, or aground.
+(j) The words length and breadth of a vessel mean her length overall and greatest
+breadth.
+(k) Vessels shall be deemed to be in sight of one another only when one can
+be observed visually from the other.
+(l) The term restricted visibility means any condition in which visibility is restricted
+by fog, mist, falling snow, heavy rainstorms, sandstorms, or any other similar
+causes.
+(m) The term Wing-In-Ground (WIG) craft means a multimodal craft which, in
+its main operational mode, flies in close proximity to the surface by utilizing
+surface-effect action.
+(n) Western Rivers means the Mississippi River, its tributaries, South Pass, and
+Southwest Pass, to the navigational demarcation lines dividing the high seas from
+harbors, rivers, and other inland waters of the United States, and the Port AllenMorgan City Alternate Route, and that part of the Atchafalaya River above its
+junction with the Port Allen-Morgan City Alternate Route including the Old
+River and the Red River.
+(o) Great Lakes means the Great Lakes and their connecting and tributary
+waters including the Calumet River as far as the Thomas J. O’Brien Lock and
+Controlling Works (between mile 326 and 327), the Chicago River as far as the
+east side of the Ashland Avenue Bridge (between mile 321 and 322), and the Saint
+Lawrence River as far east as the lower exit of Saint Lambert Lock.
+(p) Secretary means the Secretary of the Department in which the Coast Guard
+is operating.
+(q) Inland Waters means the navigable waters of the United States shoreward of
+the navigational demarcation lines dividing the high seas from harbors, rivers, and
+other inland waters of the United States and the waters of the Great Lakes on the
+United States side of the International Boundary.
+(r) Inland Rules or Rules means these Inland Navigational Rules and the annexes
+thereto, which govern the conduct of vessels and specify the lights, shapes, and
+sound signals that apply on inland waters.
+(s) International Regulations means the International Regulations for Preventing
+Collisions at Sea, 1972, including annexes currently in force for the United States.
+
+9
+
+—INTERNATIONAL—
+Steering and Sailing Rules
+
+PART B—STEERING AND SAILING RULES
+Section I—Conduct of Vessels in Any
+Condition of Visibility
+Rule 4
+Application
+Rules in this Section apply to any condition of visibility.
+
+Rule 5
+Look-out
+Every vessel shall at all times maintain a proper look-out by sight and hearing
+as well as by all available means appropriate in the prevailing circumstances and
+conditions so as to make a full appraisal of the situation and of the risk of
+collision.
+
+10
+
+—INLAND—
+
+Steering and Sailing Rules
+SUBPART B—STEERING AND SAILING
+RULES
+Conduct of Vessels in Any
+Condition of Visibility
+Rule 4
+Application
+
+§ 83.04
+Rules 4 through 10 (§§ 83.04 through 83.10) apply in any condition of
+visibility.
+
+Rule 5
+Look-out
+
+§ 83.05
+Every vessel shall at all times maintain a proper look-out by sight and hearing
+as well as by all available means appropriate in the prevailing circumstances and
+conditions so as to make a full appraisal of the situation and of the risk of
+collision.
+
+11
+
+—INTERNATIONAL—
+Steering and Sailing Rules
+Rule 6
+Safe Speed
+Every vessel shall at all times proceed at a safe speed so that she can take proper
+and effective action to avoid collision and be stopped within a distance
+appropriate to the prevailing circumstances and conditions.
+In determining a safe speed the following factors shall be among those taken
+into account:
+(a) By all vessels:
+(i) the state of visibility;
+(ii) the traffic density including concentrations of fishing vessels or any
+other vessels;
+(iii) the maneuverability of the vessel with special reference to stopping
+distance and turning ability in the prevailing conditions;
+(iv) at night, the presence of background light such as from shore lights or
+from back scatter of her own lights;
+(v) the state of wind, sea and current, and the proximity of navigational
+hazards;
+(vi) the draft in relation to the available depth of water.
+(b) Additionally, by vessels with operational radar:
+(i) the characteristics, efficiency and limitations of the radar equipment;
+(ii) any constraints imposed by the radar range scale in use;
+(iii) the effect on radar detection of the sea state, weather and other sources
+of interference;
+(iv) the possibility that small vessels, ice and other floating objects may not
+be detected by radar at an adequate range;
+(v) the number, location and movement of vessels detected by radar;
+(vi) the more exact assessment of the visibility that may be possible when
+radar is used to determine the range of vessels or other objects in the
+vicinity.
+
+12
+
+—INLAND—
+
+Steering and Sailing Rules
+Rule 6
+Safe speed
+
+§ 83.06
+Every vessel shall at all times proceed at a safe speed so that she can take proper
+and effective action to avoid collision and be stopped within a distance
+appropriate to the prevailing circumstances and conditions.
+In determining a safe speed the following factors shall be among those taken
+into account:
+(a) By all vessels:
+(i) The state of visibility;
+(ii) The traffic density including concentration of fishing vessels or any
+other vessels;
+(iii) The maneuverability of the vessel with special reference to stopping
+distance and turning ability in the prevailing conditions;
+(iv) At night, the presence of background light such as from shore lights or
+from back scatter of her own lights;
+(v) The state of wind, sea, and current, and the proximity of navigational
+hazards;
+(vi) The draft in relation to the available depth of water.
+(b) Additionally, by vessels with operational radar:
+(i) The characteristics, efficiency and limitations of the radar equipment;
+(ii) Any constraints imposed by the radar range scale in use;
+(iii) The effect on radar detection of the sea state, weather, and other
+sources of interference;
+(iv) The possibility that small vessels, ice and other floating objects may not
+be detected by radar at an adequate range;
+(v) The number, location, and movement of vessels detected by radar;
+(vi) The more exact assessment of the visibility that may be possible when
+radar is used to determine the range of vessels or other objects in the
+vicinity.
+
+13
+
+—INTERNATIONAL—
+Steering and Sailing Rules
+Rule 7
+Risk of Collision
+(a) Every vessel shall use all available means appropriate to the prevailing
+circumstances and conditions to determine if risk of collision exists. If there is
+any doubt such risk shall be deemed to exist.
+(b) Proper use shall be made of radar equipment if fitted and operational,
+including long-range scanning to obtain early warning of risk of collision and
+radar plotting or equivalent systematic observation of detected objects.
+(c) Assumptions shall not be made on the basis of scanty information,
+especially scanty radar information.
+(d) In determining if risk of collision exists the following considerations shall
+be among those taken into account:
+(i) such risk shall be deemed to exist if the compass bearing of an
+approaching vessel does not appreciably change;
+(ii) such risk may sometimes exist even when an appreciable bearing change
+is evident, particularly when approaching a very large vessel or a tow or
+when approaching a vessel at close range.
+
+14
+
+—INLAND—
+
+Steering and Sailing Rules
+Rule 7
+Risk of collision
+
+§ 83.07
+(a) Every vessel shall use all available means appropriate to the prevailing
+circumstances and conditions to determine if risk of collision exists. If there is
+any doubt such risk shall be deemed to exist.
+(b) Proper use shall be made of radar equipment if fitted and operational,
+including long-range scanning to obtain early warning of risk of collision and
+radar plotting or equivalent systematic observation of detected objects.
+(c) Assumptions shall not be made on the basis of scanty information,
+especially scanty radar information.
+(d) In determining if risk of collision exists the following considerations shall
+be among those taken into account:
+(i) Such risk shall be deemed to exist if the compass bearing of an
+approaching vessel does not appreciably change.
+(ii) Such risk may sometimes exist even when an appreciable bearing change
+is evident, particularly when approaching a very large vessel or a tow or
+when approaching a vessel at close range.
+
+15
+
+

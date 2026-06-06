@@ -1,0 +1,1240 @@
+—INTERNATIONAL—
+Exemptions
+
+Rule 38—CONTINUED
+(d) (continued)
+(ii) The repositioning of masthead lights on vessels of 150 m or more in
+length, resulting from the prescriptions of section 3(a) of annex I to these
+Regulations, until nine years after the date of entry into force of these
+Regulations.
+(e) The repositioning of masthead lights resulting from the prescriptions of
+section 2(b) of annex I to these Regulations, until nine years after the date of
+entry into force of these Regulations.
+(f) The repositioning of sidelights resulting from the prescriptions of sections
+2(g) and 3(b) of annex I to these Regulations, until nine years after the date of
+entry into force of these Regulations.
+(g) The requirements for sound signal appliances prescribed in annex III to
+these Regulations, until nine years after the date of entry into force of these
+Regulations.
+(h) The repositioning of all-round lights resulting from the prescription of
+section 9(b) of annex I to these Regulations, permanent exemption.
+
+110
+
+—INLAND—
+Exemptions
+
+[BLANK]
+
+111
+
+—INTERNATIONAL—
+Annex I
+
+Positioning and Technical Details of Lights and Shapes
+1. Definition
+The term height above the hull means height above the uppermost continuous
+deck. This height shall be measured from the position vertically beneath the
+location of the light.
+
+2. Vertical positioning and spacing of lights
+(a) On a power-driven vessel of 20 meters or more in length the masthead
+lights shall be placed as follows:
+(i) the forward masthead light, or if only one masthead light is carried, then
+that light, at a height above the hull of not less than 6 meters, and, if the breadth
+of the vessel exceeds 6 meters, then at a height above the hull not less than such
+breadth, so however that the light need not be placed at a greater height above
+the hull than 12 meters;
+(ii) when two masthead lights are carried the after one shall be at least 4.5
+meters vertically higher than the forward one.
+(b) The vertical separation of masthead lights of power-driven vessels shall be
+such that in all normal conditions of trim the after light will be seen over and
+separate from the forward light at a distance of 1000 meters from the stem when
+viewed from sea level.
+(c) The masthead light of a power-driven vessel of 12 meters but less than 20
+meters in length shall be placed at a height above the gunwale of not less than 2.5
+meters.
+(d) A power-driven vessel of less than 12 meters in length may carry the
+uppermost light at a height of less than 2.5 meters above the gunwale. When,
+however, a masthead light is carried in addition to sidelights and a sternlight or
+the all-round light prescribed in rule 23(d)(i) is carried in addition to sidelights,
+then such masthead light or all-round light shall be carried at least 1 meter higher
+than the sidelights.
+
+112
+
+—INLAND—
+
+Annex I
+33 CFR 84
+Positioning and Technical Details of Lights and Shapes
+§ 84.01 Definitions
+(a) The term height above the hull means height above the uppermost continuous
+deck. This height shall be measured from the position vertically beneath the
+location of the light.
+(b) High-speed craft means a craft capable of maximum speed in meters per
+second (m/s) equal to or exceeding: 3.7∇0.1667; where ∇ = displacement
+corresponding to the design waterline (cubic meters).
+NOTE TO PARAGRAPH (b): The same formula expressed in pounds and knots is
+maximum speed in knots (kts) equal to exceeding 1.98(lbs) 3.7∇0.1667; where
+∇=displacement corresponding to design waterline in pounds.
+
+(c) The term practical cut-off means, for vessels 20 meters or more in length, 12.5
+percent of the minimum luminous intensity (Table 84.15(b)) corresponding to
+the greatest range of visibility for which the requirements of Annex I (33 CFR
+part 84) are met.
+(d) The term Rule or Rules has the same meaning as in 33 CFR 83.03(r).
+
+§ 84.02 Vertical positioning and spacing of lights
+(a) On a power-driven vessel of 20 meters or more in length the masthead
+lights shall be placed as follows:
+(i) The forward masthead light, or if only one masthead light is carried,
+then that light, at a height above the hull of not less than 5 meters, and, if
+the breadth of the vessel exceeds 5 meters, then at a height above the hull
+not less than such breadth, so however that the light need not be placed at
+a greater height above the hull than 8 meters.
+(ii) When two masthead lights are carried the after one shall be at least 2
+meters vertically higher than the forward one.
+(b) The vertical separation of the masthead lights of power-driven vessels shall
+be such that in all normal conditions of trim the after light will be seen over and
+separate from the forward light at a distance of 1000 meters from the stem when
+viewed from water level.
+(c) The masthead light of a power-driven vessel of 12 meters but less than 20
+meters in length shall be placed at a height above the gunwale of not less than 2.5
+meters.
+(d) The masthead light, or the all-round light described in Rule 23(d)(§ 83.23(d)
+of this chapter), of a power-driven vessel of less than 12 meters in length shall be
+carried at least one meter higher than the sidelights.
+
+113
+
+—INTERNATIONAL—
+Annex I—CONTINUED
+
+(e) One of the two or three masthead lights prescribed for a power-driven
+vessel when engaged in towing or pushing another vessel shall be placed in the
+same position as either the forward masthead light or the after masthead light;
+provided that, if carried on the aftermast, the lowest after masthead light shall be
+at least 4.5 meters vertically higher than the forward masthead light.
+(f) (i) The masthead light or lights prescribed in Rule 23(a) shall be so placed
+as to be above and clear of all other lights and obstructions except as
+described in subparagraph (ii).
+(ii) When it is impracticable to carry the all-round lights prescribed by Rule
+27(b)(i) or Rule 28 below the masthead lights, they may be carried above
+the after masthead light(s) or vertically in between the forward masthead
+light(s) and after masthead light(s), provided that in the latter case the
+requirement of Section 3(c) of this Annex shall be complied with.
+(g) The sidelights of a power-driven vessel shall be placed at a height above the
+hull not greater than three quarters of that of the forward masthead light. They
+shall not be so low as to be interfered with by deck lights.
+(h) The sidelights, if in a combined lantern and carried on a power-driven
+vessel of less than 20 meters in length, shall be placed not less than 1 meter below
+the masthead light.
+(i) When the Rules prescribe two or three lights to be carried in a vertical line,
+they shall be spaced as follows:
+(i) on a vessel of 20 meters in length or more such lights shall be spaced not
+less than 2 meters apart, and the lowest of these lights shall, except where
+a towing light is required, be placed at a height of not less than 4 meters
+above the hull;
+(ii) on a vessel of less than 20 meters in length such lights shall be spaced
+not less than 1 meter apart and the lowest of these lights shall, except where
+a towing light is required, be placed at a height of not less than 2 meters
+above the gunwale;
+(iii) when three lights are carried they shall be equally spaced.
+(j) The lower of the two all-round lights prescribed for a vessel when engaged
+in fishing shall be at a height above the sidelights not less than twice the distance
+between the two vertical lights.
+(k) The forward anchor light prescribed in Rule 30(a)(i), when two are carried,
+shall not be less than 4.5 meters above the after one. On a vessel of 50 meters or
+more in length this forward anchor light shall be placed at a height of not less
+than 6 meters above the hull.
+
+114
+
+—INLAND—
+
+Annex I—CONTINUED
+(e) One of the two or three masthead lights prescribed for a power-driven
+vessel when engaged in towing or pushing another vessel shall be placed in the
+same position as either the forward masthead light or the after masthead light,
+provided that the lowest after masthead light shall be at least 2 meters vertically
+higher than the highest forward masthead light.
+(f) (i) The masthead light or lights prescribed in Rule 23(a) (§ 83.23(a)of this
+chapter) shall be so placed as to be above and clear of all other lights and
+obstructions except as described in paragraph (f)(ii) of this section.
+(ii) When it is impracticable to carry the all-round lights prescribed in Rule
+27(b)(i) (§ 83.27(b)(i)of this chapter) below the masthead lights, they may
+be carried above the after masthead light(s) or vertically in between the
+forward masthead light(s) and after masthead light(s), provided that in the
+latter case the requirement of § 84.03(c) shall be complied with.
+(g) The sidelights of a power-driven vessel shall be placed at least one meter
+lower than the forward masthead light. They shall not be so low as to be
+interfered with by deck lights.
+(h) [Reserved]
+(i) When the Rules in this subchapter E ‡ prescribe two or three lights to be
+carried in a vertical line, they shall be spaced as follows:
+(i) On a vessel of 20 meters in length or more such lights shall be spaced
+not less than 1 meter apart, and the lowest of these lights shall, except where
+a towing light is required, be placed at a height of not less than 4 meters
+above the hull;
+(ii) On a vessel of less than 20 meters in length such lights shall be spaced
+not less than 1 meter apart and the lowest of these lights shall, except where
+a towing light is required, be placed at a height of not less than 2 meters
+above the gunwale;
+(iii) When three lights are carried they shall be equally spaced.
+(j) The lower of the two all-round lights prescribed for a vessel when engaged
+in fishing shall be at a height above the sidelights not less than twice the distance
+between the two vertical lights.
+(k) The forward anchor light prescribed in Rule 30(a)(i) (§ 83.30(a)(i)), when
+two are carried, shall not be less than 4.5 meters above the after one. On a vessel
+of 50 meters or more in length this forward anchor light shall be placed at a height
+of not less than 6 meters above the hull.
+
+‡
+
+Parts 83-90 of Title 33 Code of Federal Regulations.
+
+115
+
+—INTERNATIONAL—
+Annex I—CONTINUED
+
+3. Horizontal positioning and spacing of lights
+(a) When two masthead lights are prescribed for a power-driven vessel, the
+horizontal distance between them shall not be less than one half of the length of
+the vessel but need not be more than 100 meters. The forward light shall be
+placed not more than one quarter of the length of the vessel from the stem.
+(b) On a power-driven vessel of 20 meters or more in length the sidelights shall
+not be placed in front of the forward masthead lights. They shall be placed at or
+near the side of the vessel.
+(c) When the lights prescribed in Rule 27(b)(i) or Rule 28 are placed vertically
+between the forward masthead light(s) and the after masthead light(s) these allround lights shall be placed at a horizontal distance of not less than 2 meters from
+the fore and aft centerline of the vessel in the athwartship direction.
+(d) When only one masthead light is prescribed for a power-driven vessel, this
+light shall be exhibited forward of amidships; except that a vessel of less than 20
+meters in length need not exhibit this light forward of amidships but shall exhibit
+it as far forward as is practicable.
+
+4. Details of location of direction-indicating lights for fishing vessels,
+dredgers and vessels engaged in underwater operations
+(a) The light indicating the direction of the outlying gear from a vessel engaged
+in fishing as prescribed in Rule 26(c)(ii) shall be placed at a horizontal distance of
+not less than 2 meters and not more than 6 meters away from the two all-round
+red and white lights. This light shall be placed not higher than the all-round white
+light prescribed in Rule 26(c)(i) and not lower than the sidelights.
+(b) The lights and shapes on a vessel engaged in dredging or underwater
+operations to indicate the obstructed side and/or the side on which it is safe to
+pass, as prescribed in Rule 27(d)(i) and (ii), shall be placed at the maximum
+practical horizontal distance, but in no case less than 2 meters, from the lights or
+shapes prescribed in Rule 27(b)(i) and (ii). In no case shall the upper of these
+lights or shapes be at a greater height than the lower of the three lights or shapes
+prescribed in Rule 27(b)(i) and (ii).
+
+116
+
+—INLAND—
+
+Annex I—CONTINUED
+§ 84.03 Horizontal positioning and spacing of lights
+(a) Except as specified in paragraph (e) of this section, when two masthead
+lights are prescribed for a power-driven vessel, the horizontal distance between
+them must not be less than one quarter of the length of the vessel but need not
+be more than 50 meters. The forward light must be placed not more than one
+half of the length of the vessel from the stem.
+(b) On a power-driven vessel of 20 meters or more in length the sidelights shall
+not be placed in front of the forward masthead lights. They shall be placed at or
+near the side of the vessel.
+(c) When the lights prescribed in Rule 27(b)(i) (§ 83.27(b)(i) of this chapter) are
+placed vertically between the forward masthead light(s) and the after masthead
+light(s), these all-round lights shall be placed at a horizontal distance of not less
+than 2 meters from the fore and aft centerline of the vessel in the athwartship
+direction.
+(d) When only one masthead light is prescribed for a power-driven vessel, this
+light must be exhibited forward of amidships. For a vessel of less than 20 meters
+in length, the vessel shall exhibit one masthead light as far forward as is
+practicable.
+(e) On power-driven vessels 50 meters but less than 60 meters in length
+operated on the Western Rivers, and those waters specified in § 89.25 of this
+chapter, the horizontal distance between masthead lights shall not be less than 10
+meters.
+§ 84.04 Details of location of direction-indicating lights for fishing vessels,
+dredgers and vessels engaged in underwater operations
+(a) The light indicating the direction of the outlying gear from a vessel engaged
+in fishing as prescribed in Rule 26(c)(ii) (§ 83.26(c)(ii) of this chapter) shall be
+placed at a horizontal distance of not less than 2 meters and not more than 6
+meters away from the two all-round red and white lights. This light shall be placed
+not higher than the all-round white light prescribed in Rule 26(c)(i) (§ 83.26(c)(i)
+of this chapter) and not lower than the sidelights.
+(b) The lights and shapes on a vessel engaged in dredging or underwater
+operations to indicate the obstructed side and/or the side on which it is safe to
+pass, as prescribed in Rule 27(d)(i) and (ii) (§ 83.27(d)(i) and (ii) of this chapter),
+shall be placed at the maximum practical horizontal distance, but in no case less
+than 2 meters, from the lights or shapes prescribed in Rule 27(b)(i) and (i) (§
+83.27(b)(i) and (ii) of this chapter). In no case shall the upper of these lights or
+shapes be at a greater height than the lower of the three lights or shapes
+prescribed in Rule 27(b)(i) and (ii) (§ 83.27)(b)(i) and (ii) of this chapter).
+
+117
+
+—INTERNATIONAL—
+Annex I—CONTINUED
+
+5. Screens for sidelights
+The sidelights of vessels of 20 meters or more in length shall be fitted with
+inboard screens painted matt black, and meeting the requirements of Section 9
+of this Annex. On vessels of less than 20 meters in length the sidelights, if
+necessary to meet the requirements of Section 9 of this Annex, shall be fitted with
+inboard matt black screens. With a combined lantern, using a single vertical
+filament and a very narrow division between the green and red sections, external
+screens need not be fitted.
+
+6. Shapes
+(a) Shapes shall be black and of the following sizes:
+(i) a ball shall have a diameter of not less than 0.6 meter;
+(ii) a cone shall have a base diameter of not less than 0.6 meter and a height
+equal to its diameter;
+(iii) a cylinder shall have a diameter of at least 0.6 meter and a height of twice
+its diameter;
+(iv) a diamond shape shall consist of two cones as defined in (ii) above
+having a common base.
+(b) The vertical distance between shapes shall be at least 1.5 meter.
+(c) In a vessel of less than 20 meters in length shapes of lesser dimensions but
+commensurate with the size of the vessel may be used and the distance apart may
+be correspondingly reduced.
+7. Color specification of lights
+The chromaticity of all navigation lights shall conform to the following
+standards, which lie within the boundaries of the area of the diagram specified
+for each color by the International Commission on Illumination (CIE).
+
+118
+
+—INLAND—
+
+Annex I—CONTINUED
+§ 84.05 Screens
+(a) The sidelights of vessels of 20 meters or more in length shall be fitted with
+matt black inboard screens and meet the requirements of § 84.15. On vessels of
+less than 20 meters in length, the sidelights, if necessary to meet the requirements
+of § 84.15, shall be fitted with matt black inboard screens. With a combined
+lantern, using a single vertical filament and a very narrow division between the
+green and red sections, external screens need not be fitted.
+(b) On power-driven vessels less than 12 meters in length constructed after
+July 31, 1983, the masthead light, or the all-round light described in Rule 23(d) (§
+83.23(d) of this chapter) shall be screened to prevent direct illumination of the
+vessel forward of the operator’s position.
+§ 84.06 Shapes
+(a) Shapes shall be black and of the following sizes:
+(i) A ball shall have a diameter of not less than 0.6 meter.
+(ii) A cone shall have a base diameter of not less than 0.6 meters and a
+height equal to its diameter.
+(iii) A diamond shape shall consist of two cones (as defined in paragraph
+(a)(ii) of this section) having a common base.
+(b) The vertical distance between shapes shall be at least 1.5 meters.
+(c) In a vessel of less than 20 meters in length shapes of lesser dimensions but
+commensurate with the size of the vessel may be used and the distance apart may
+be correspondingly reduced.
+§ 84.13 Color specification of lights
+(a) The chromaticity of all navigation lights shall conform to the following
+standards, which lie within the boundaries of the area of the diagram specified for
+each color by the International Commission on Illumination (CIE), in the “Colors of
+Light Signals”, which is incorporated by reference. It is Publication CIE No. 2.2. (TC1.6), 1975, and is available from the Illumination Engineering Society, 345 East 47th
+Street, New York, NY 10017 and is available for inspection at the Coast Guard Coast
+Guard Headquarters. Contact Commandant (CG–43), Attn: Office of Civil
+Engineering, U.S. Coast Guard Stop 7714, 2703 Martin Luther King Jr. Avenue SE.,
+Washington, DC 20593–7714. It is also available for inspection at the National
+Archives and Records Administration (NARA). For information on the availability of
+this material at NARA, call 202–741–6030, or go to:
+http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locatio
+ns.html. This incorporation by reference was approved by the Director of the Federal
+Register.
+
+119
+
+—INTERNATIONAL—
+Annex I—CONTINUED
+
+The boundaries of the area for each color are given by indicating the corner
+coordinates, which are as follows:
+(i) White:
+x 0.525
+0.525
+0.452
+0.310
+0.310
+0.443
+y 0.382
+0.440
+0.440
+0.348
+0.283
+0.382
+(ii) Green:
+x 0.028
+0.009
+0.300
+0.203
+y 0.385
+0.723
+0.511
+0.356
+(iii) Red:
+x 0.680
+0.660
+0.735 0.721
+y 0.320
+0.320
+0.265 0.259
+(iv) Yellow:
+x 0.612
+0.618
+0.575 0.575
+y 0.382
+0.382
+0.425
+0.406
+8. Intensity of lights
+(a) The minimum luminous intensity of lights shall be calculated by using the
+formula:
+I = 3.43 x 106 x T x D2 x K-D
+where:
+
+I is luminous intensity in candelas under service conditions,
+T is threshold factor 2 x 10-7 lux,
+D is range of visibility (luminous range) of the light in nautical miles,
+K is atmospheric transmissivity. For prescribed lights the value of K shall be 0.8,
+corresponding to a meteorological visibility of approximately 13 nautical miles.
+
+(b) A selection of figures derived from the formula is given in the following
+table:
+Range of visibility(luminous range) of
+light in nautical miles
+
+Luminous intensity of light in
+candelas for K = 0.8
+
+D
+
+I
+
+1
+2
+3
+4
+5
+6
+
+0.9
+4.3
+12
+27
+52
+94
+
+NOTE: The maximum luminous intensity of navigation lights should be limited to avoid undue glare.
+This shall not be achieved by a variable control of the luminous intensity.
+
+120
+
+—INLAND—
+
+Annex I—CONTINUED
+(b) The boundaries of the area for each color are given by indicating the corner
+co-ordinates, which are as follows:
+(i) White:
+x 0.525
+0.525
+0.452
+0.310
+0.310
+0.443
+y 0.382
+0.440
+0.440
+0.348
+0.283
+0.382
+(ii) Green:
+x 0.028
+0.009
+0.300
+0.203
+y 0.385
+0.723
+0.511
+0.356
+(iii) Red:
+x 0.680
+0.660
+0.735
+0.721
+y 0.320
+0.320
+0.265
+0.259
+(iv) Yellow:
+x 0.612
+0.618
+0.575
+0.575
+y 0.382
+0.382
+0.425
+0.406
+§ 84.14 Intensity of lights
+(a) The minimum luminous intensity of lights shall be calculated by using the
+formula:
+I = 3.43 x 106 x T x D2 x K-D
+where:
+
+I is luminous intensity in candelas under service conditions,
+T is threshold factor 2 x 10-7 lux,
+D is range of visibility (luminous range) of the light in nautical miles,
+K is atmospheric transmissivity. For prescribed lights the value of K shall be 0.8,
+corresponding to a meteorological visibility of approximately 13 nautical miles.
+
+(b) A selection of figures derived from the formula is given in the following
+table (Table 84.14(b)).
+Table 84.14(b)
+
+Range of visibility (luminous range) of
+light in nautical miles
+
+Minimum luminous intensity of light in
+candelas for K = 0.8
+
+D
+
+I
+
+1
+2
+3
+4
+5
+6
+
+0.9
+4.3
+12
+27
+52
+94
+
+121
+
+—INTERNATIONAL—
+Annex I—CONTINUED
+
+9. Horizontal sectors
+(a) (i) In the forward direction, sidelights as fitted on the vessel shall show the
+minimum required intensities. The intensities shall decrease to reach
+practical cut-off between 1° and 3° outside the prescribed sectors.
+(ii) For sternlights and masthead lights and at 22.5° abaft the beam for
+sidelights, the minimum required intensities shall be maintained over the
+arc of the horizon up to 5° within the limits of the sectors prescribed in
+Rule 21. From 5° within the prescribed sectors the intensity may decrease
+by 50% up to the prescribed limits; it shall decrease steadily to reach
+practical cut-off at not more than 5° outside the prescribed sectors.
+(b) (i) All-round lights shall be so located as not to be obscured by masts,
+topmasts or structures within angular sectors of more than 6°, except
+anchor lights prescribed in Rule 30, which need not be placed at an
+impracticable height above the hull.
+(ii) If it is impracticable to comply with paragraph (b)(i) of this section by
+exhibiting only one all-round light, two all-round lights shall be used
+suitably positioned or screened so that they appear, as far as practicable, as
+one light at a distance of one mile.
+
+10. Vertical sectors
+(a) The vertical sectors of electric lights as fitted, with the exception of lights
+on sailing vessels underway, shall ensure that:
+(i) at least the required minimum intensity is maintained at all angles from
+5° above to 5° below the horizontal;
+(ii) at least 60% of the required minimum intensity is maintained from 7.5°
+above to 7.5° below the horizontal.
+(b) In the case of sailing vessels underway the vertical sectors of electric lights
+as fitted shall ensure that:
+(i) at least the required minimum intensity is maintained at all angles from
+5° above to 5° below the horizontal;
+(ii) at least 50% of the required minimum intensity is maintained from 25°
+above to 25° below the horizontal.
+(c) In the case of lights other than electric these specifications shall be met as
+closely as possible.
+
+122
+
+—INLAND—
+
+Annex I—CONTINUED
+§ 84.15 Horizontal sectors
+(a) (i) In the forward direction, sidelights as fitted on the vessel shall show the
+minimum required intensities. The intensities shall decrease to reach
+practical cut-off between 1 and 3 degrees outside the prescribed sectors.
+(ii) For sternlights and masthead lights and at 22.5 degrees abaft the beam
+for sidelights, the minimum required intensities shall be maintained over
+the arc of the horizon up to 5 degrees within the limits of the sectors
+prescribed in Rule 21 (§ 83.21 of this chapter). From 5 degrees within the
+prescribed sectors the intensity may decrease by 50 percent up to the
+prescribed limits; it shall decrease steadily to reach practical cutoff at not
+more than 5 degrees outside the prescribed sectors.
+(b) (i) All-round lights shall be so located as not to be obscured by masts,
+topmasts or structures within angular sectors of more than 6 degrees, except
+anchor lights prescribed in Rule 30 (§ 83.30 of this chapter), which need not
+be placed at an impracticable height above the hull, and the all-round white
+light described in Rule 23(e) (§ 83.23(e) of this chapter), which may not be
+obscured at all.
+(ii) If it is impracticable to comply with paragraph (b) (i) of this section by
+exhibiting only one all-round light, two all-round lights shall be used suitably
+positioned or screened to appear, as far as practicable, as one light at a
+minimum distance of one nautical mile.
+NOTE TO PARAGRAPH (b)(ii): Two unscreened all-round lights that are 1.28 meters apart
+or less will appear as one light to the naked eye at a distance of one nautical mile.
+
+§ 84.16 Vertical sectors
+(a) The vertical sectors of electric lights as fitted, with the exception of lights
+on sailing vessels underway and on unmanned barges, shall ensure that:
+(i) At least the required minimum intensity is maintained at all angles from
+5 degrees above to 5 degrees below the horizontal;
+(ii) At least 60 percent of the required minimum intensity is maintained
+from 7.5 degrees above to 7.5 degrees below the horizontal.
+(b) In the case of sailing vessels underway, the vertical sectors of electric lights
+as fitted shall ensure that:
+(i) At least the required minimum intensity is maintained at all angles from
+5 degrees above to 5 degrees below the horizontal;
+(ii) At least 50 percent of the required minimum intensity is maintained
+from 25 degrees above to 25 degrees below the horizontal.
+(c) In the case of unmanned barges the minimum required intensity of electric
+lights as fitted shall be maintained on the horizontal.
+(d) In the case of lights other than electric lights these specifications shall be
+met as closely as possible.
+
+123
+
+—INTERNATIONAL—
+Annex I—CONTINUED
+
+11. Intensity of non-electric lights
+Non-electric lights shall so far as practicable comply with the minimum
+intensities, as specified in the Table given in Section 8 of this Annex.
+12. Maneuvering light
+Notwithstanding the provisions of paragraph 2(f) of this annex, the
+maneuvering light described in Rule 34(b) shall be placed in the same fore and
+aft vertical plane as the masthead light or lights and, where practicable, at a
+minimum height of 2 meters vertically above the forward masthead light,
+provided that it shall be carried not less than 2 meters vertically above or below
+the after masthead light. On a vessel where only one masthead light is carried, the
+maneuvering light, if fitted, shall be carried where it can best be seen, not less
+than 2 meters vertically apart from the masthead light.
+13. High-speed Craft *
+(a) The masthead light of high-speed craft may be placed at a height related to
+the breadth of the craft lower than that prescribed in paragraph 2(a)(i) of this
+annex, provided that the base angle of the isosceles triangles formed by the
+sidelights and masthead light, when seen in end elevation, is not less than 27°.
+(b) On high-speed craft of 50 meters or more in length, the vertical separation
+between foremast and mainmast light of 4.5 meters required by paragraph 2(a)(ii)
+of this annex may be modified provided that such distance shall not be less than
+the value determined by the following formula:
+
+y=
+where:
+
+y
+a
+Ψ
+C
+
+(a + 17Ψ )C
++2
+1000
+
+is the height of the mainmast light above the foremast light in meters;
+is the height of the foremast light above the water surface in service
+condition in meters;
+is the trim in service conditions in degrees;
+is the horizontal separation of masthead lights in meters.
+
+* Refer to the International Code of Safety for High-Speed Craft, 1994 and the International
+Code of Safety for High-Speed Craft, 2000.
+
+14. Approval
+The construction of lights and shapes and the installation of lights on board
+the vessel shall be to the satisfaction of the appropriate authority of the State
+whose flag the vessel is entitled to fly.
+
+124
+
+—INLAND—
+
+Annex I—CONTINUED
+§ 84.17 Intensity of non-electric lights
+Non-electric lights shall so far as practicable comply with the minimum
+intensities, as specified in the Table 84.14(b).
+§ 84.18 Maneuvering light
+Notwithstanding the provisions of § 84.02(f), the maneuvering light described
+in Rule 34(b) (§ 83.34(b) of this chapter) shall be placed approximately in the
+same fore and aft vertical plane as the masthead light or lights and, where
+practicable, at a minimum height of one-half meter vertically above the forward
+masthead light, provided that it shall be carried not less than one-half meter
+vertically above or below the after masthead light. On a vessel where only one
+masthead light is carried the maneuvering light, if fitted, shall be carried where it
+can best be seen, not less than one-half meter vertically apart from the masthead
+light.
+§ 84.19 High-speed Craft
+(a) The masthead light of high-speed craft may be placed at a height related to
+the breadth lower than that prescribed in § 84.02(a)(i), provided that the base
+angle of the isosceles triangle formed by the sidelights and masthead light when
+seen in end elevation is not less than 27°.
+(b) On high-speed craft of 50 meters or more in length, the vertical separation
+between foremast and mainmast light of 4.5 meters required by § 84.02(k) may
+be modified provided that such distance shall not be less than the value
+determined by the following formula:
+
+y=
+where:
+
+y
+a
+Ψ
+C
+
+(a + 17Ψ )C
++ 2;
+1000
+
+is the height of the mainmast light above the foremast light in meters;
+is the height of the foremast light above the water surface in service
+condition in meters;
+is the trim in service condition in degrees;
+is the horizontal separation of masthead lights in meters.
+
+NOTE TO § 84.19: Refer to the International Code of Safety for High-Speed Craft, 1994 and
+the International Code of Safety for High-Speed Craft, 2000
+
+§ 84.20 Approval
+The construction of lights and shapes and the installation of lights on board a
+vessel must satisfy the Commandant, U. S. Coast Guard.
+
+125
+
+—INTERNATIONAL—
+Annex II
+
+Additional Signals for Fishing Vessels
+Fishing in Close Proximity
+1. General
+The lights mentioned herein shall, if exhibited in pursuance of Rule 26(d), be
+placed where they can best be seen. They shall be at least 0.9 meter apart but at a
+lower level than lights prescribed in Rule 26(b)(i) and (c)(i). The lights shall be
+visible all around the horizon at a distance of at least 1 mile but at a lesser distance
+than the lights prescribed by these Rules for fishing vessels.
+2. Signals for trawlers
+(a) Vessels of 20 meters or more in length when engaged in trawling, whether
+using demersal or pelagic gear, shall exhibit:
+(i) when shooting their nets: two white lights in a vertical line;
+(ii) when hauling their nets: one white light over one red light in a vertical
+line;
+(iii) when the net has come fast upon an obstruction: two red lights in a
+vertical line.
+(b) Each vessel of 20 meters or more in length engaged in pair trawling shall
+exhibit:
+(i) by night, a searchlight directed forward and in the direction of the other
+vessel of the pair;
+(ii) when shooting or hauling their nets or when their nets have come fast
+upon an obstruction, the lights prescribed in 2(a) above.
+(c) A vessel of less than 20 meters in length engaged in trawling, whether using
+demersal or pelagic gear, or engaged in pair trawling, may exhibit the lights
+prescribed in paragraphs (a) or (b) of this section, as appropriate.
+3. Signals for purse seiners
+Vessels engaged in fishing with purse seine gear may exhibit two yellow lights
+in a vertical line. These lights shall flash alternately every second and with equal
+light and occultation duration. These lights may be exhibited only when the vessel
+is hampered by its fishing gear.
+
+126
+
+—INLAND—
+Annex II
+33 CFR 85
+
+§ 85.01. [Reserved]
+
+127
+
+—INTERNATIONAL—
+Annex III
+
+Technical Details of Sound Signal Appliances
+1. Whistles
+(a) Frequencies and range of audibility
+The fundamental frequency of the signal shall lie within the range 70-700 Hz.
+The range of audibility of the signal from a whistle shall be determined by those
+frequencies, which may include the fundamental and/or one or more higher
+frequencies, which lie within the range 180-700 Hz (+/- 1%) for a vessel of 20
+meters or more in length, or 180-2100 Hz (+/- 1%) for a vessel of less than 20
+meters in length and which provide the sound pressure levels specified in
+paragraph 1(c) below.
+(b) Limits of fundamental frequencies
+To ensure a wide variety of whistle characteristics, the fundamental frequency
+of a whistle shall be between the following limits:
+(i) 70-200 Hz, for a vessel 200 meters or more in length;
+(ii) 130-350 Hz, for a vessel 75 meters but less than 200 meters in length;
+(iii) 250-700 Hz, for a vessel less than 75 meters in length.
+(c) Sound signal intensity and range of audibility
+A whistle fitted in a vessel shall provide, in the direction of maximum intensity
+of the whistle and at a distance of 1 meter from it, a sound pressure level in at
+least one 1/3-octave band within the range of frequencies 180-700 Hz (+/- 1%)
+for a vessel of 20 meters or more in length, or 180-2100 Hz (+/- 1%) for a vessel
+of less than 20 meters in length, of not less than the appropriate figure given in
+the table below.
+The range of audibility in the table above is for information and is
+approximately the range at which a whistle may be heard on its forward axis with
+90 percent probability in conditions of still air on board a vessel having average
+background noise level at the listening posts (taken to be 68 dB in the octave
+band centered on 250 Hz and 63 dB in the octave band centered on 500 Hz).
+
+128
+
+—INLAND—
+Annex III
+33 CFR 86
+
+Technical Details of Sound Signal Appliances
+§ 86.01 Whistles.
+(a) Frequencies and range of audibility. The fundamental frequency of the signal
+shall lie within the range 70-700 Hz. The range of audibility of the signal from a
+whistle shall be determined by those frequencies, which may include the
+fundamental and/or one or more higher frequencies, which lie within the range
+180-700 Hz (+/- 1%) for a vessel of 20 meters or more in length, or 180-2100
+Hz (+/- 1%) for a vessel of less than 20 meters in length and which provide the
+sound pressure levels specified in paragraph (c) of this section.
+(b) Limits of fundamental frequencies. To ensure a wide variety of whistle
+characteristics, the fundamental frequency of a whistle shall be between the
+following limits:
+(i) 70-200 Hz, for a vessel 200 meters or more in length.
+(ii) 130-350 Hz, for a vessel 75 meters but less than 200 meters in length.
+(iii) 250-700 Hz, for a vessel less than 75 meters in length.
+(c) Sound signal intensity and range of audibility.
+A whistle fitted in a vessel shall provide, in the direction of maximum intensity
+of the whistle and at a distance of 1 meter from it, a sound pressure level in at
+least one 1/3 rd-octave band within the range of frequencies 180-700 Hz (+/- 1%)
+for a vessel of 20 meters or more in length, or 180-2100 Hz (+/-1%) for a vessel
+of less than 20 meters in length, of not less than the appropriate figure given in
+Table 86.01(c) of this section. The range of audibility in Table 86.01(c) is the
+approximate range at which a whistle may be heard on its forward axis with 90%
+probability in conditions of still air on board a vessel having average background
+noise level at the listening posts (taken to be 68 dB in the octave band centered
+on 250 Hz and 63 dB in the octave band centered on 500 Hz). It is shown for
+informational purposes only. In practice, the range at which a whistle may be
+heard is extremely variable and depends critically on weather conditions; the
+values given can be regarded as typical but under conditions of strong wind or
+high ambient noise level at the listening post the range may be reduced.
+
+129
+
+—INTERNATIONAL—
+Annex III—CONTINUED
+1/3-octave band
+level at
+1 meter in dB
+referred to 2x10-5
+N/m2
+
+Audibility range
+in nautical miles
+
+200 or more
+
+143
+
+2
+
+75 but less than 200
+
+138
+
+1.5
+
+20 but less than 75
+
+130
+
+1
+
+Less than 20
+
+120 *
+115 †
+111 ‡
+
+0.5
+
+Length of vessel
+in meters
+
+* When the measured frequencies lie within the range 180-450 Hz
+† When the measured frequencies lie within the range 450-800 Hz
+
+‡ When the measured frequencies lie within the range 800-2100 Hz
+
+In practice the range at which a whistle may be heard is extremely variable and depends
+critically on weather conditions; the values given can be regarded as typical but under
+conditions of strong wind or high ambient noise level at the listening post the range may
+be much reduced.
+
+(d) Directional properties
+The sound pressure level of a directional whistle shall be not more than 4 dB
+below the prescribed sound pressure level on the axis at any direction in the
+horizontal plane within ± 45 degrees of the axis. The sound pressure level at any
+other direction in the horizontal plane shall be not more than 10 dB below the
+prescribed sound pressure level on the axis, so that the range in any direction will
+be at least half the range on the forward axis. The sound pressure level shall be
+measured in that one-third octave band which determines the audibility range.
+(e) Positioning of whistles
+When a directional whistle is to be used as the only whistle on a vessel, it shall
+be installed with its maximum intensity directed straight ahead.
+A whistle shall be placed as high as practicable on a vessel, in order to reduce
+interception of the emitted sound by obstructions and also to minimize hearing
+damage risk to personnel. The sound pressure level of the vessel’s own signal at
+listening posts shall not exceed 110 dB(A) and so far as practicable should not
+exceed 100 dB(A).
+(f) Fitting of more than one whistle
+If whistles are fitted at a distance apart of more than 100 meters, it shall be so
+arranged that they are not sounded simultaneously.
+
+130
+
+—INLAND—
+
+Annex III—CONTINUED
+Table 86.01(c)
+
+1/3rd-octave band
+
+level at
+1 meter in dB
+referred to
+2x10-5 N/m2
+
+Audibility range
+in nautical miles
+
+200 or more
+
+143
+
+2
+
+75 but less than 200
+
+138
+
+1.5
+
+20 but less than 75
+
+130
+
+1
+
+Length of vessel in meters
+
+1120
+
+Less than 20
+
+2115
+3111
+
+0.5
+
+1 When the measured frequencies lie within the range 180-450 Hz.
+2 When the measured frequencies lie within the range 450-800 Hz.
+
+3 When the measured frequencies lie within the range 800-2100 Hz.
+
+(d) Directional properties. The sound pressure level of a directional whistle shall
+be not more than 4 dB below the sound pressure level specified in paragraph (c)
+of this section, in any direction in the horizontal plane within ±45 degrees of the
+forward axis. The sound pressure level of the whistle in any other direction in the
+horizontal plane shall not be more than 10 dB less than the sound pressure level
+specified for the forward axis, so that the range of audibility in any direction will
+be at least half the range required on the forward axis. The sound pressure level
+shall be measured in that one 1/3rd-octave band which determines the audibility
+range.
+(e) Positioning of whistles
+(i) When a directional whistle is to be used as the only whistle on the vessel
+and is permanently installed, it shall be installed with its forward axis
+directed forward.
+(ii) A whistle shall be placed as high as practicable on a vessel, in order to
+reduce interception of the emitted sound by obstructions and also to
+minimize hearing damage risk to personnel. The sound pressure level of the
+vessel’s own signal at listening posts shall not exceed 110 dB(A) and so far
+as practicable should not exceed 100 dB(A).
+(f) Fitting of more than one whistle. If whistles are fitted at a distance apart of
+more than 100 meters, they shall not be sounded simultaneously.
+
+131
+
+—INTERNATIONAL—
+Annex III—CONTINUED
+
+(g) Combined whistle systems
+If due to the presence of obstructions the sound field of a single whistle or of
+one of the whistles referred to in paragraph 1(f) above is likely to have a zone of
+greatly reduced signal level, it is recommended that a combined whistle system
+be fitted so as to overcome this reduction. For the purposes of the Rules a
+combined whistle system is to be regarded as a single whistle. The whistles of a
+combined system shall be located at a distance apart of not more than 100 meters
+and arranged to be sounded simultaneously. The frequency of any one whistle
+shall differ from those of the others by at least 10 Hz.
+
+2. Bell or gong
+(a) Intensity of signal
+A bell or gong, or other device having similar sound characteristics shall
+produce a sound pressure level of not less than 110 dB at a distance of 1 meter
+from it.
+(b) Construction
+Bells and gongs shall be made of corrosion-resistant material and designed to
+give a clear tone. The diameter of the mouth of the bell shall be not less than 300
+mm for vessels of 20 meters or more in length. Where practicable, a power-driven
+bell striker is recommended to ensure constant force but manual operation shall
+be possible. The mass of the striker shall be not less than 3 percent of the mass
+of the bell.
+3. Approval
+The construction of sound signal appliances, their performance and their
+installation on board the vessel shall be to the satisfaction of the appropriate
+authority of the State whose flag the vessel is entitled to fly.
+
+132
+
+—INLAND—
+
+Annex III—CONTINUED
+(g)Combined whistle systems
+(i) A combined whistle system is a number of whistles (sound emitting
+sources) operated together. For the purposes of the Rules in Subchapter E ‡
+a combined whistle system is to be regarded as a single whistle.
+(ii) The whistles of a combined system shall:
+(1) Be located at a distance apart of not more than 100 meters;
+(2) Be sounded simultaneously;
+(3) Each have a fundamental frequency different from those of the others
+by at least 10 Hz; and
+(4) Have a tonal characteristic appropriate for the length of vessel which
+shall be evidenced by at least two-thirds of the whistles in the combined
+system having fundamental frequencies falling within the limits prescribed
+in paragraph (b) of this section, or if there are only two whistles in the
+combined system, by the higher fundamental frequency falling within the
+limits prescribed in paragraph (b) of this section.
+NOTE TO PARAGRAPH (g): If, due to the presence of obstructions, the sound field of a
+single whistle or of one of the whistles referred to in paragraph (f) of this section is likely
+to have a zone of greatly reduced signal level, a combined whistle system should be fitted
+so as to overcome this reduction.
+
+(h)Towing vessel whistles. A power-driven vessel normally engaged in pushing
+ahead or towing alongside may, at all times, use a whistle whose characteristic
+falls within the limits prescribed by paragraph (b) of this section for the longest
+customary composite length of the vessel and its tow.
+
+§86.02 Bell or gong
+(a) Intensity of signal. A bell or gong, or other device having similar sound
+characteristics shall produce a sound pressure level of not less than 110 dB at 1
+meter.
+(b) Construction. Bells and gongs shall be made of corrosion-resistant material
+and designed to give clear tone. The diameter of the mouth of the bell shall be
+not less than 300 mm for vessels of 20 meters or more in length. Where
+practicable, a power-driven bell striker is recommended to ensure constant force
+but manual operation shall be possible. The mass of the striker shall be not less
+than 3 percent of the mass of the bell.
+§ 86.03 Approval. [Reserved]
+‡ Parts 83-90 of Title 33 Code of Federal Regulations.
+
+133
+
+—INTERNATIONAL—
+Annex IV
+
+Distress Signals
+1. The following signals, used or exhibited either together or separately, indicate
+distress and need of assistance:
+(a) a gun or other explosive signal fired at intervals of about a minute;
+(b) a continuous sounding with any fog-signaling apparatus;
+(c) rockets or shells, throwing red stars fired one at a time at short intervals;
+(d) a signal made by any signaling method consisting of the group. . . – – – . . .
+(SOS) in the Morse Code;
+(e) a signal sent by radiotelephony consisting of the spoken word “Mayday”;
+(f) the International Code Signal of distress indicated by N.C.;
+(g) a signal consisting of a square flag having above or below it a ball or anything
+resembling a ball;
+(h) flames on the vessel (as from a burning tar barrel, oil barrel, etc.);
+(i) a rocket parachute flare or a hand flare showing a red light;
+(j) a smoke signal giving off orange-colored smoke;
+(k) slowly and repeatedly raising and lowering arms outstretched to each side;
+(l) a distress alert by means of digital selective calling (DSC) transmitted on:
+(i) VHF channel 70, or
+(ii) MF/HF on the frequencies 2187.5 kHz ‡, 8414.5 kHz, 4207.5 kHz, 6312
+kHz, 12577 kHz or 16804.5 kHz;
+(m) a ship-to-shore distress alert transmitted by the ship’s Inmarsat or other
+mobile satellite service provider ship earth station;
+(n) signals transmitted by emergency position-indicating radio beacons;
+(o) approved signals transmitted by radiocommunication systems, including
+survival craft radar transponders.
+
+2. The use or exhibition of any of the foregoing signals except for the purpose of
+indicating distress and need of assistance and the use of other signals which may be
+confused with any of the above signals is prohibited.
+3. Attention is drawn to the relevant sections of the International Code of Signals,
+the International Aeronautical and Maritime Search and Rescue Manual, Volume III,
+and the following signals:
+(a) a piece of orange-colored canvas with either a black square and circle or other
+appropriate symbol (for identification from the air);
+(b) a dye marker.
+‡ The U.S. Coast Guard terminated monitoring DSC safety and distress frequency 2187.5 kHz on
+August 1, 2013. (78 FR 42102).
+
+134
+
+—INLAND—
+Annex IV
+33 CFR 87
+
+Distress Signals
+§ 87.1 Need of assistance
+The following signals, used or exhibited either together or separately, indicate distress
+and need of assistance:
+(a) A gun or other explosive signal fired at intervals of about a minute;
+(b) A continuous sounding with any fog-signaling apparatus;
+(c) Rockets or shells, throwing red stars fired one at a time at short intervals;
+(d) A signal made by any method consisting of the group . . . – – – . . . (SOS) in
+the Morse Code;
+(e) A signal sent by radiotelephony consisting of the spoken word “Mayday”;
+(f) The International Code Signal of distress indicated by N.C.;
+(g) A signal consisting of a square flag having above or below it a ball or anything
+resembling a ball;
+(h) Flames on the vessel (as from a burning tar barrel, oil barrel, etc.);
+(i) A rocket parachute flare or a hand flare showing a red light;
+(j) A smoke signal giving off orange-colored smoke;
+(k) Slowly and repeatedly raising and lowering arms outstretched to each side;
+(l) A distress alert by means of digital selective calling (DSC) transmitted on:
+(i) VHF channel 70, or
+(ii) MF/HF on the frequencies 2187.5 kHz ‡, 8414.5 kHz, 4207.5 kHz,
+6312 kHz, 12577 kHz or 16804.5 kHz;
+(m) A ship-to-shore distress alert transmitted by the ship’s Inmarsat or other
+mobile satellite service provider ship earth station;
+(n) Signals transmitted by emergency position-indicating radio beacons;
+(o) Signals transmitted by radiocommunication systems, including survival craft
+radar transponders meeting the requirements of 47 CFR 80.109; and
+(p) A high intensity white light flashing at regular intervals from 50 to 70 times per
+minute.
+§ 87.02 Exclusive use. The use or exhibition of any of the foregoing signals except
+for the purpose of indicating distress and need of assistance and the use of other
+signals which may be confused with any of the above signals is prohibited.
+§ 87.03 Supplemental signals. Attention is drawn to the relevant sections of the
+International Code of Signals, the International Aeronautical and Maritime Search
+and Rescue Manual, Volume III, the International Telecommunication Union Radio
+Regulations, and the following signals:
+(a) A piece of orange-colored canvas with either a black square and circle or other
+appropriate symbol (for identification from the air);
+(b) A dye marker.
+‡ The U.S. Coast Guard terminated monitoring DSC safety and distress frequency 2187.5 kHz on
+August 1, 2013. (78 FR 42102).
+
+135
+
+—INTERNATIONAL—
+
+[BLANK]
+
+136
+
+—INLAND—
+Annex V
+33 CFR 88
+Pilot Rules
+
+§ 88.01 Purpose and applicability
+This Part applies to all vessels operating on United States inland waters and to
+United States vessels operating on the Canadian waters of the Great Lakes to the
+extent there is no conflict with Canadian law.
+§ 88.03 Definitions
+The terms used in this part have the same meaning as the terms defined in Part
+83 of this subchapter.
+§ 88.05 Law enforcement vessels
+(a) Law enforcement vessels may display a flashing blue light when engaged in
+direct law enforcement or public safety activities. This light must be located so
+that it does not interfere with the visibility of the vessel’s navigation lights.
+(b) The blue light described in this section may be displayed by law
+enforcement vessels of the United States and the States and their political
+subdivisions.
+§ 88.07 Public Safety Activities
+(a) Vessels engaged in government sanctioned public safety activities, and
+commercial vessels performing similar functions, may display an alternately
+flashing red and yellow light signal. This identification light signal must be located
+so that it does not interfere with the visibility of the vessel’s navigation lights. The
+identification light signal may be used only as an identification signal and conveys
+no special privilege. Vessels using the identification light signal during public
+safety activities must abide by the Inland Navigation Rules, and must not presume
+that the light or the exigency gives them precedence or right of way.
+(b) Public safety activities include but are not limited to patrolling marine
+parades, regattas, or special water celebrations; traffic control; salvage;
+firefighting; medical assistance; assisting disabled vessels; and search and rescue.
+
+137
+
+—INTERNATIONAL—
+INTERPRETATIVE RULES
+33 CFR 82
+
+§ 82.1 Purpose
+This part contains the interpretative rules concerning the 72 COLREGS that
+are adopted by the Coast Guard for the guidance of the public.
+§ 82.3 Pushing vessel and vessel being pushed: Composite unit
+Rule 24(b) of the 72 COLREGS states that when a pushing vessel and a vessel
+being pushed ahead are rigidly connected in a composite unit, they are regarded
+as a power-driven vessel and must exhibit the lights under Rule 23. A “composite
+unit” is interpreted to be a pushing vessel that is rigidly connected by mechanical
+means to a vessel being pushed so they react to sea and swell as one vessel.
+“Mechanical means” does not include the following:
+(a) Lines.
+(b) Hawsers.
+(c) Wires.
+(d) Chains.
+§ 82.5 Lights for moored vessels
+For the purposes of Rule 30 of the 72 COLREGS, a vessel at anchor includes a
+barge made fast to one or more mooring buoys or other similar device attached
+to the sea or river floor. Such a barge may be lighted as a vessel at anchor in
+accordance with Rule 30, or may be lighted on the corners in accordance with 33
+CFR 83.30(h) through (l).
+§ 82.7 Sidelights for unmanned barges
+An unmanned barge being towed may use the exception of COLREGS Rule
+24(h). However, this exception only applies to the vertical sector requirements.
+
+138
+
+—INLAND—
+
+INTERPRETATIVE RULES
+33 CFR 90
+§ 90.1 Purpose
+This part contains the interpretative rules for the Inland Rules. These
+interpretative rules are intended as a guide to assist the public and promote
+compliance with the Inland Rules.
+§ 90.3 Pushing vessel and vessel being pushed: Composite unit
+Rule 24(b) of the Inland Rules states that when a pushing vessel and a vessel
+being pushed ahead are rigidly connected in a composite unit, they are regarded
+as a power-driven vessel and must exhibit the lights prescribed in Rule 23. A
+“composite unit” is interpreted to be the combination of a pushing vessel and a
+vessel being pushed ahead that are rigidly connected by mechanical means so they
+react to sea and swell as one vessel. Mechanical means does not include lines,
+wires, hawsers, or chains.
+
+§ 90.5 Lights for moored vessels
+A vessel at anchor includes a vessel made fast to one or more mooring buoys
+or other similar device attached to the ocean floor. Such vessels may be lighted
+as a vessel at anchor in accordance with Rule 30, or may be lighted on the corners
+in accordance with 33 CFR 83.30(h) through (l).
+§ 90.7 Sidelights for unmanned barges
+An unmanned barge being towed may use the exception of COLREGS Rule
+24(h). However, this exception only applies to the vertical sector requirements.
+
+139
+
+
