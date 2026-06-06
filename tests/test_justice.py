@@ -50,3 +50,10 @@ def test_all_docs_have_prose(docs):
     for d in docs:
         assert d.prose.strip(), f"{d.number} empty"
         assert d.regime == "canadian"
+
+
+def test_annex_titles_strip_international_suffix(docs):
+    by_num = {d.number: d for d in docs}
+    assert not by_num["Annex IV"].title.upper().endswith("INTERNATIONAL")
+    assert not by_num["Annex II"].title.upper().endswith("INTERNATIONAL")
+    assert by_num["Annex IV"].title  # still non-empty

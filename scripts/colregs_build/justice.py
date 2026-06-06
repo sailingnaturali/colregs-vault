@@ -17,7 +17,7 @@ _PART_RE = re.compile(r"^PART ([A-F])\b")
 _RULE_RE = re.compile(r"^Rule (\d+)$")
 _ANNEX_RE = re.compile(r"^ANNEX ([IV]+)")
 _SECTION_RE = re.compile(r"^SECTION [IVX]+\b")
-_INTL_SUFFIX = re.compile(r"\s*—\s*International$")
+_INTL_SUFFIX = re.compile(r"\s*—\s*International$", re.IGNORECASE)
 # Non-substantive elements excluded from prose AND from the fidelity baseline:
 _NOTES = {"HistoricalNote", "MarginalNote", "FootnoteRef", "Footnote"}
 
