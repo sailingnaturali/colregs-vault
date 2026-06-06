@@ -54,3 +54,94 @@ def international_pages(pages: list[list[str]]) -> list[tuple[int, list[str]]]:
         if body:
             result.append((i + 1, body))
     return result
+
+
+def _reflow(lines: list[str]) -> str:
+    """Rejoin hard-wrapped lines into paragraphs; a new paragraph starts at
+    (a)/(i)/1.-style labels."""
+    paras: list[str] = []
+    for line in lines:
+        if _PARA_START.match(line) or not paras:
+            paras.append(line)
+        else:
+            paras[-1] += " " + line
+    return "\n\n".join(paras)
+
+
+def parse_international(pages: list[tuple[int, list[str]]],
+                        source_name: str) -> list[RuleDoc]:
+    bodies: dict[str, list[str]] = {}      # doc key -> raw content lines
+    titles: dict[str, str] = {}
+    parts: dict[str, str] = {}
+    pagenos: dict[str, set[int]] = {}
+    order: list[str] = []
+    part = ""
+    key: str | None = None
+    title_pending = 0                       # 1: next line is the title; -1: multi-line annex title
+
+    def start(k: str, pageno: int, pending: int) -> None:
+        nonlocal key, title_pending
+        key = k
+        title_pending = pending
+        if k not in bodies:
+            bodies[k] = []
+            titles[k] = ""
+            parts[k] = part
+            pagenos[k] = set()
+            order.append(k)
+        pagenos[k].add(pageno)
+
+    done = False
+    for pageno, lines in pages:
+        if done:
+            break
+        for line in lines:
+            if line == _STOP:
+                done = True
+                break
+            pm = _PART.match(line)
+            if pm:
+                part = pm.group(1)
+                continue
+            if _SECTION.match(line):
+                continue
+            if _PARA_CONT.match(line):
+                continue
+            m = _RULE_START.match(line)
+            if m:
+                start(m.group(1), pageno, pending=1)   # rule titles are one line
+                continue
+            m = _RULE_CONT.match(line)
+            if m:
+                start(m.group(1), pageno, pending=0)
+                continue
+            m = _ANNEX_START.match(line)
+            if m:
+                start(f"Annex {m.group(1)}", pageno, pending=-1)  # multi-line title
+                continue
+            m = _ANNEX_CONT.match(line)
+            if m:
+                start(f"Annex {m.group(1)}", pageno, pending=0)
+                continue
+            if key is None:
+                continue                     # front matter before Rule 1
+            if title_pending == 1:
+                titles[key] = line
+                title_pending = 0
+                continue
+            if title_pending == -1:          # annex title: accumulate until prose starts
+                if _PARA_START.match(line):
+                    title_pending = 0        # fall through to prose
+                else:
+                    titles[key] = (titles[key] + " " + line).strip()
+                    continue
+            bodies[key].append(line)
+
+    docs: list[RuleDoc] = []
+    for k in order:
+        nums = sorted(pagenos[k])
+        span = f"p. {nums[0]}" if len(nums) == 1 else f"pp. {nums[0]}-{nums[-1]}"
+        docs.append(RuleDoc(number=k, regime="international", part=parts[k],
+                            title=titles[k], source_pdf=f"{source_name} {span}",
+                            prose=_reflow(bodies[k])))
+    return docs
