@@ -92,6 +92,7 @@ def parse_international(pages: list[tuple[int, list[str]]],
         pagenos[k].add(pageno)
 
     done = False
+    skip_continuation = False
     for pageno, lines in pages:
         if done:
             break
@@ -101,28 +102,36 @@ def parse_international(pages: list[tuple[int, list[str]]],
                 break
             pm = _PART.match(line)
             if pm:
+                skip_continuation = False
                 part = pm.group(1)
                 continue
             if _SECTION.match(line):
+                skip_continuation = True
                 continue
             if _PARA_CONT.match(line):
                 continue
             m = _RULE_START.match(line)
             if m:
+                skip_continuation = False
                 start(m.group(1), pageno, pending=1)   # rule titles are one line
                 continue
             m = _RULE_CONT.match(line)
             if m:
+                skip_continuation = False
                 start(m.group(1), pageno, pending=0)
                 continue
             m = _ANNEX_START.match(line)
             if m:
+                skip_continuation = False
                 start(f"Annex {m.group(1)}", pageno, pending=-1)  # multi-line title
                 continue
             m = _ANNEX_CONT.match(line)
             if m:
+                skip_continuation = False
                 start(f"Annex {m.group(1)}", pageno, pending=0)
                 continue
+            if skip_continuation:
+                continue                     # drop wrapped section-heading continuation lines
             if key is None:
                 continue                     # front matter before Rule 1
             if title_pending == 1:

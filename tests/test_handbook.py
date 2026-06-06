@@ -72,3 +72,10 @@ def test_annexes_1_to_4_parsed_and_stops_before_interpretative_rules():
     assert a1.title == "Positioning and Technical Details of Lights and Shapes"
     assert len(a1.prose) > 2000
     assert not any("INTERPRETATIVE" in d.prose for d in docs)
+
+
+def test_section_heading_fragments_do_not_leak_into_prose():
+    docs = docs_from("handbook-rules-sample.txt")
+    by = {d.number: d for d in docs}
+    # Section I's wrapped heading line must not pollute Rule 3
+    assert "Condition of Visibility" not in by["3"].prose
