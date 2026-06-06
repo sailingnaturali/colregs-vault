@@ -40,8 +40,8 @@ def _table_text(table_group: ET.Element) -> str:
     Uses _flat_without_notes on each entry to strip FootnoteRef markers so the fidelity
     baseline (which also strips Footnotes/FootnoteRefs) matches."""
     rows: list[str] = []
-    for section in table_group.iter("table"):
-        for tgroup in section.iter("tgroup"):
+    for table in table_group.iter("table"):
+        for tgroup in table.iter("tgroup"):
             for thead in tgroup.findall("thead"):
                 for row in thead.findall("row"):
                     cells = [_flat_without_notes(e) for e in row.findall("entry")]
@@ -152,12 +152,13 @@ def parse_schedule(xml_text: str, retrieved: str) -> list[RuleDoc]:
     pending_title = False
 
     def push() -> None:
-        nonlocal current
+        nonlocal current, pending_title
         if current is not None:
             if not current.prose.strip():
                 raise ValueError(f"canadian {current.number}: no prose collected")
             docs.append(current)
             current = None
+        pending_title = False  # reset: new doc starts fresh
 
     for el in sched:
         if el.tag == "Heading":
@@ -189,7 +190,8 @@ def parse_schedule(xml_text: str, retrieved: str) -> list[RuleDoc]:
                 current.title = _INTL_SUFFIX.sub("", text)
                 pending_title = False
                 if "—" not in text:
-                    continue  # plain title; only keep structural headings in prose
+                    continue  # plain title (e.g. "Responsibility"): structure only, not prose
+                # "— International" / "— Canadian Modification" headings ARE prose section headers
             current.prose += ("\n" if current.prose else "") + text
         elif el.tag == "Provision":
             if current is not None:
