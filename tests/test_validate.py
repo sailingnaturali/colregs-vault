@@ -14,7 +14,7 @@ def full_set():
     for regime, numbers in build_vault.EXPECTED.items():
         for n in numbers:
             docs.append(RuleDoc(number=n, regime=regime, title="T",
-                                prose="(a) Body text long enough to count."))
+                                prose="(a) Synthetic body text comfortably above the short-prose threshold."))
     return docs
 
 

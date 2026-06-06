@@ -60,7 +60,7 @@ def validate(docs: list[RuleDoc]) -> list[str]:
                 errors.append(f"{regime} {d.number}: missing title")
             if d.number.isdigit() and len(d.title) > 80:
                 errors.append(f"{regime} {d.number}: suspicious title ({len(d.title)} chars)")
-            if (d.number.isdigit() and len(d.prose) < 20
+            if (d.number.isdigit() and len(d.prose) < 40
                     and not _is_reserved_stub(d)):
                 errors.append(f"{regime} {d.number}: prose suspiciously short")
     return errors
