@@ -68,3 +68,12 @@ def test_annex_1_extract_blocks_are_captured():
     # EXTRACT blocks hold the intensity/chromaticity values; without them the
     # prose was ~14,100 chars. With them it must be substantially longer.
     assert len(doc.prose) > 15000
+
+
+def test_annex_tables_are_extracted():
+    # parts 84 and 86 each contain one HTML-style TABLE (TR/TD/TH);
+    # rows must surface as "cell | cell" lines in the prose
+    for part_no in (84, 86):
+        xml = (SOURCES / f"ecfr-title33-part{part_no}.xml").read_text()
+        doc = parse_annex(xml, part_no, "https://example.test", "2026-06-06")
+        assert " | " in doc.prose, f"part {part_no}: no table rows in prose"

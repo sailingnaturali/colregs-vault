@@ -25,9 +25,11 @@ def _paragraphs(container: ET.Element) -> list[str]:
                 out.append(t)
         elif child.tag in ("GPOTABLE", "TABLE"):
             rows = []
-            for row in child.iter("ROW"):
-                cells = [_text(c) for c in row.iter("ENT")]
-                rows.append(" | ".join(c for c in cells if c))
+            for row in child.iter("TR"):
+                cells = [_text(c) for c in row if c.tag in ("TD", "TH")]
+                line = " | ".join(c for c in cells if c)
+                if line:
+                    rows.append(line)
             if rows:
                 out.append("\n".join(rows))
         elif child.tag in ("EXTRACT", "DIV"):
