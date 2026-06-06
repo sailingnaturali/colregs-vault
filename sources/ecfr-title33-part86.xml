@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<DIV5 N="86" TYPE="PART" VOLUME="1" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-33/part-86&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;33 CFR Part 86&amp;quot;}">
+<HEAD>PART 86&#x2014;ANNEX III: TECHNICAL DETAILS OF SOUND SIGNAL APPLIANCES
+</HEAD>
+<AUTH>
+<HED>Authority:</HED><PSPACE>Sec. 303, Pub. L. 108-293, 118 Stat. 1042 (33 U.S.C. 2071); Department of Homeland Security Delegation No. 0170.1.
+</PSPACE></AUTH>
+<SOURCE>
+<HED>Source:</HED><PSPACE>79 FR 37924, July 2, 2014, unless otherwise noted.
+</PSPACE></SOURCE>
+<DIV8 N="86.01" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-33/section-86.01&quot;,&quot;citation&quot;:&quot;33 CFR 86.01&quot;}">
+<HEAD>&#xA7; 86.01 Whistles.</HEAD>
+<P>(a) <I>Frequencies and range of audibility.</I> The fundamental frequency of the signal shall lie within the range 70-700 Hz. The range of audibility of the signal from a whistle shall be determined by those frequencies, which may include the fundamental and/or one or more higher frequencies, which lie within the range 180-700 Hz (&#xB1;1%) for a vessel of 20 meters or more in length, or 180-2100 Hz (&#xB1;1%) for a vessel of less than 20 meters in length and which provide the sound pressure levels specified in paragraph (c) of this section.</P>
+<P>(b) <I>Limits of fundamental frequencies.</I> To ensure a wide variety of whistle characteristics, the fundamental frequency of a whistle shall be between the following limits:</P>
+<P>(i) 70-200 Hz, for a vessel 200 meters or more in length.</P>
+<P>(ii) 130-350 Hz, for a vessel 75 meters but less than 200 meters in length.</P>
+<P>(iii) 250-700 Hz, for a vessel less than 75 meters in length.</P>
+<P>(c) <I>Sound signal intensity and range of audibility.</I> A whistle fitted in a vessel shall provide, in the direction of maximum intensity of the whistle and at a distance of 1 meter from it, a sound pressure level in at least one
+<FR>1/3</FR>rd-octave band within the range of frequencies 180-700 Hz (&#xB1;1%) for a vessel of 20 meters or more in length, or 180-2100 Hz (&#xB1;1%) for a vessel of less than 20 meters in length, of not less than the appropriate figure given in Table 86.01(c) of this section. The range of audibility in Table 86.01(c) is the approximate range at which a whistle may be heard on its forward axis with 90% probability in conditions of still air on board a vessel having average background noise level at the listening posts (taken to be 68 dB in the octave band centered on 250 Hz and 63 dB in the octave band centered on 500 Hz). It is shown for information purposes only. In practice, the range at which a whistle may be heard is extremely variable and depends critically on weather conditions; the values given can be regarded as typical but under conditions of strong wind or high ambient noise level at the listening post the range may be reduced.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%">
+<CAPTION><P class="title">Table 86.01(<E T="01">c</E>)</P></CAPTION>
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">Length of vessel in meters</TH>
+<TH class="center border-top-single border-bottom-single border-right-single"><sup>1</sup>&#x2044;<sub>3</sub>rd-octave band level at 1 meter in dB referred to 2 &#xD7; 10<sup>&#x2212;5</sup> N/m<sup>2</sup></TH>
+<TH class="center border-top-single border-bottom-single">Audibility range in<br/>nautical miles</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">200 or more</TD>
+<TD class="right border-right-single">143</TD>
+<TD class="right">2</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">75 but less than 200</TD>
+<TD class="right border-right-single">138</TD>
+<TD class="right">1.5</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">20 but less than 75</TD>
+<TD class="right border-right-single">130</TD>
+<TD class="right">1</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">Less than 20</TD>
+<TD class="right border-bottom-single border-right-single"><sup>1</sup> 120<br/><sup>2</sup> 115<br/><sup>3</sup> 111</TD>
+<TD class="right border-bottom-single">0.5
+</TD>
+</TR>
+</TBODY>
+<TFOOT><TR><TD colspan="3"><sup>1</sup> When the measured frequencies lie within the range 180-450 Hz.
+</TD></TR><TR><TD colspan="3"><sup>2</sup> When the measured frequencies lie within the range 450-800 Hz.
+</TD></TR><TR><TD colspan="3"><sup>3</sup> When the measured frequencies lie within the range 800-2100 Hz.</TD></TR></TFOOT></TABLE>
+</DIV></DIV>
+<P>(d) <I>Directional properties.</I> The sound pressure level of a directional whistle shall be not more than 4 dB below the sound pressure level, specified in paragraph (c) of this section, in any direction in the horizontal plane within &#xB1;45 degrees of the forward axis. The sound pressure level of the whistle in any other direction in the horizontal plane shall not be more than 10 dB less than the sound pressure level specified for the forward axis, so that the range of audibility in any direction will be at least half the range required on the forward axis. The sound pressure level shall be measured in that one
+<FR>1/3</FR>
+<SU>rd</SU>-octave band which determines the audibility range.</P>
+<P>(e) <I>Positioning of whistles.</I> (i) When a directional whistle is to be used as the only whistle on the vessel and is permanently installed, it shall be installed with its forward axis directed forward.</P>
+<P>(ii) A whistle shall be placed as high as practicable on a vessel, in order to reduce interception of the emitted sound by obstructions and also to minimize hearing damage risk to personnel. The sound pressure level of the vessel's own signal at listening posts shall not exceed 110 dB(A) and so far as practicable should not exceed 100 dB(A).</P>
+<P>(f) <I>Fitting of more than one whistle.</I> If whistles are fitted at a distance apart of more than 100 meters, they shall not be sounded simultaneously.</P>
+<P>(g) <I>Combined whistle systems.</I> (i) A combined whistle system is a number of whistles (sound emitting sources) operated together. For the purposes of the Rules of Subchapter E a combined whistle system is to be regarded as a single whistle.</P>
+<P>(ii) The whistles of a combined system shall:</P>
+<P>(1) Be located at a distance apart of not more than 100 meters;</P>
+<P>(2) Be sounded simultaneously;</P>
+<P>(3) Each have a fundamental frequency different from those of the others by at least 10 Hz; and</P>
+<P>(4) Have a tonal characteristic appropriate for the length of vessel which shall be evidenced by at least two-thirds of the whistles in the combined system having fundamental frequencies falling within the limits prescribed in paragraph (b) of this section, or if there are only two whistles in the combined system, by the higher fundamental frequency falling within the limits prescribed in paragraph (b) of this section.</P>
+<NOTE>
+<HED>Note to paragraph (<E T="01">g</E>):</HED>
+<P>If, due to the presence of obstructions, the sound field of a single whistle or of one of the whistles referred to in paragraph (f) of this section is likely to have a zone of greatly reduced signal level, a combined whistle system should be fitted so as to overcome this reduction.</P></NOTE>
+<P>(h) <I>Towing vessel whistles.</I> A power-driven vessel normally engaged in pushing ahead or towing alongside may, at all times, use a whistle whose characteristic falls within the limits prescribed by paragraph (b) of this section for the longest customary composite length of the vessel and its tow.</P>
+</DIV8>
+
+<DIV8 N="86.02" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-33/section-86.02&quot;,&quot;citation&quot;:&quot;33 CFR 86.02&quot;}">
+<HEAD>&#xA7; 86.02 Bell or gong.</HEAD>
+<P>(a) <I>Intensity of signal.</I> A bell or gong, or other device having similar sound characteristics shall produce a sound pressure level of not less than 110 dB at 1 meter.</P>
+<P>(b) <I>Construction.</I> Bells and gongs shall be made of corrosion-resistant material and designed to give clear tone. The diameter of the mouth of the bell shall be not less than 300 mm for vessels of 20 meters or more in length. Where practicable, a power-driven bell striker is recommended to ensure constant force but manual operation shall be possible. The mass of the striker shall be not less than 3 percent of the mass of the bell.</P>
+</DIV8>
+
+<DIV8 N="86.03" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-33/section-86.03&quot;,&quot;citation&quot;:&quot;33 CFR 86.03&quot;}">
+<HEAD>&#xA7; 86.03 Approval. [Reserved]</HEAD>
+</DIV8>
+
+</DIV5>
