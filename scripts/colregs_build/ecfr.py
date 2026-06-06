@@ -66,3 +66,26 @@ def parse_rules(xml_text: str, source_url: str, retrieved: str) -> list[RuleDoc]
                                 source_url=source_url, retrieved=retrieved, prose=prose))
     docs.sort(key=lambda d: int(d.number))
     return docs
+
+
+def parse_annex(xml_text: str, part_no: int, source_url: str, retrieved: str) -> RuleDoc:
+    number = ANNEX_PARTS[part_no]
+    root = ET.fromstring(xml_text)
+    if part_no == 85:
+        return RuleDoc(number=number, regime="inland", title="[Reserved]",
+                       source_url=source_url, retrieved=retrieved,
+                       prose="33 CFR Part 85 (Annex II) is reserved in the "
+                             "Inland Navigation Rules.")
+    head = _text(root.find("HEAD"))  # e.g. "PART 84—ANNEX I: POSITIONING AND ..."
+    title = head.split(":", 1)[1].strip() if ":" in head else head
+    paras: list[str] = []
+    for div8 in root.iter("DIV8"):
+        sec_head = _text(div8.find("HEAD"))
+        if sec_head:
+            paras.append(sec_head)
+        paras.extend(_paragraphs(div8))
+    prose = "\n\n".join(paras)
+    if not prose:
+        raise ValueError(f"empty prose for inland {number}")
+    return RuleDoc(number=number, regime="inland", title=title,
+                   source_url=source_url, retrieved=retrieved, prose=prose)

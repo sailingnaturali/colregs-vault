@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from colregs_build.ecfr import parse_rules
+from colregs_build.ecfr import ANNEX_PARTS, parse_annex, parse_rules
 
 SOURCES = Path(__file__).resolve().parent.parent / "sources"
 
@@ -36,3 +36,27 @@ def test_prose_is_populated_and_clean(rules):
         assert "§" not in r.prose.split("\n")[0][:5]  # section heads not leaked into prose
     r1 = next(r for r in rules if r.number == "1")
     assert r1.prose.startswith("(a)")
+
+
+def test_annex_parts_map():
+    assert ANNEX_PARTS == {84: "Annex I", 85: "Annex II", 86: "Annex III",
+                           87: "Annex IV", 88: "Annex V"}
+
+
+@pytest.mark.parametrize("part_no,min_len", [(84, 2000), (86, 500), (87, 200), (88, 500)])
+def test_annexes_have_substance(part_no, min_len):
+    xml = (SOURCES / f"ecfr-title33-part{part_no}.xml").read_text()
+    doc = parse_annex(xml, part_no, "https://example.test", "2026-06-06")
+    assert doc.number == ANNEX_PARTS[part_no]
+    assert doc.regime == "inland"
+    assert doc.part == ""
+    assert doc.title
+    assert len(doc.prose) > min_len
+
+
+def test_annex_2_is_reserved_stub():
+    xml = (SOURCES / "ecfr-title33-part85.xml").read_text()
+    doc = parse_annex(xml, 85, "https://example.test", "2026-06-06")
+    assert doc.number == "Annex II"
+    assert doc.title == "[Reserved]"
+    assert "reserved" in doc.prose.lower()
