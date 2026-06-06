@@ -104,9 +104,11 @@ def parse_international(pages: list[tuple[int, list[str]]],
             if pm:
                 skip_continuation = False
                 part = pm.group(1)
+                title_pending = 0  # defensive: headings always precede rules, but don't trust print layout
                 continue
             if _SECTION.match(line):
                 skip_continuation = True
+                title_pending = 0  # defensive: headings always precede rules, but don't trust print layout
                 continue
             if _PARA_CONT.match(line):
                 continue
