@@ -1,0 +1,92 @@
+version: 1
+# ⚠️ UNVERIFIED DRAFT — pending Bryan's line-by-line review against the rule text.
+# arrangement: ordered top -> bottom; all-round lights assumed.
+patterns:
+  - id: red-over-red-night
+    arrangement: [red, red]
+    condition: night
+    mnemonic: "red over red, the captain is dead"
+    candidates:
+      - situation: not_under_command
+        rule: "Rule 27(a)"
+        note: "Two all-round reds in a vertical line."
+    confirm:
+      - "Also see a white anchor light or two? May be AGROUND (Rule 30), not NUC."
+      - "Sidelights + sternlight and moving -> making way; none/stationary -> stopped."
+  - id: red-red-red-night
+    arrangement: [red, red, red]
+    condition: night
+    candidates:
+      - situation: constrained_by_draught
+        rule: "Rule 28"
+        note: "Three all-round reds in a vertical line."
+  - id: red-white-red-night
+    arrangement: [red, white, red]
+    condition: night
+    candidates:
+      - situation: restricted_manoeuvrability
+        rule: "Rule 27(b)"
+        note: "Red-white-red all-round, vertical."
+  - id: green-over-white-night
+    arrangement: [green, white]
+    condition: night
+    mnemonic: "green over white, trawling at night"
+    candidates:
+      - situation: fishing
+        rule: "Rule 26(b)"
+        note: "Trawler: all-round green over all-round white."
+  - id: red-over-white-night
+    arrangement: [red, white]
+    condition: night
+    mnemonic: "red over white, fishing at night"
+    candidates:
+      - situation: fishing
+        rule: "Rule 26(c)"
+        note: "Fishing (not trawling): all-round red over all-round white."
+    confirm:
+      - "Order matters: WHITE over RED is a pilot vessel (Rule 29), not fishing."
+  - id: white-over-red-night
+    arrangement: [white, red]
+    condition: night
+    mnemonic: "white over red, pilot ahead"
+    candidates:
+      - situation: pilot_vessel
+        rule: "Rule 29"
+        note: "Pilot vessel on duty: all-round white over all-round red."
+    confirm:
+      - "Order matters: RED over WHITE is a fishing vessel (Rule 26), not a pilot."
+  - id: anchor-white-night
+    arrangement: [white]
+    condition: night
+    candidates:
+      - situation: anchored
+        rule: "Rule 30(a)"
+        note: "Single all-round white forward (vessel under 50 m)."
+  - id: anchor-ball-day
+    arrangement: [ball]
+    condition: day
+    candidates:
+      - situation: anchored
+        rule: "Rule 30(a)"
+        note: "One ball, forward."
+  - id: ball-diamond-ball-day
+    arrangement: [ball, diamond, ball]
+    condition: day
+    candidates:
+      - situation: restricted_manoeuvrability
+        rule: "Rule 27(b)"
+        note: "Ball-diamond-ball in a vertical line."
+  - id: ball-ball-day
+    arrangement: [ball, ball]
+    condition: day
+    candidates:
+      - situation: not_under_command
+        rule: "Rule 27(a)"
+        note: "Two balls in a vertical line."
+  - id: cone-down-day
+    arrangement: [cone_down]
+    condition: day
+    candidates:
+      - situation: motorsailing
+        rule: "Rule 25(e)"
+        note: "One cone, apex down: sailing vessel also under power."

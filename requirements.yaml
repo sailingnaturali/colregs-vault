@@ -42,3 +42,30 @@ entries:
       - { id: all_round_red_1, desc: "all-round red", rule: "Rule 28" }
       - { id: all_round_red_2, desc: "all-round red", rule: "Rule 28" }
       - { id: all_round_red_3, desc: "all-round red", rule: "Rule 28" }
+  - id: restricted-manoeuvrability-night
+    match: { situation: restricted_manoeuvrability, condition: night }
+    lights:
+      - { id: all_round_red_upper, desc: "all-round red, uppermost", rule: "Rule 27(b)(i)" }
+      - { id: all_round_white_middle, desc: "all-round white, middle", rule: "Rule 27(b)(i)" }
+      - { id: all_round_red_lower, desc: "all-round red, lowest", rule: "Rule 27(b)(i)" }
+  - id: restricted-manoeuvrability-day
+    match: { situation: restricted_manoeuvrability, condition: day }
+    shapes:
+      - { id: ball, desc: "ball, uppermost", rule: "Rule 27(b)(ii)" }
+      - { id: diamond, desc: "diamond, middle", rule: "Rule 27(b)(ii)" }
+      - { id: ball, desc: "ball, lowest", rule: "Rule 27(b)(ii)" }
+  - id: not-under-command-day
+    match: { situation: not_under_command, condition: day }
+    shapes:
+      - { id: ball, desc: "ball, upper", rule: "Rule 27(a)(ii)" }
+      - { id: ball, desc: "ball, lower", rule: "Rule 27(a)(ii)" }
+  - id: fishing-night
+    match: { situation: fishing, condition: night }
+    light_options:
+      - [{ id: all_round_green_upper, desc: "all-round green over white — trawling", rule: "Rule 26(b)(i)" }, { id: all_round_white_lower, desc: "all-round white", rule: "Rule 26(b)(i)" }]
+      - [{ id: all_round_red_upper, desc: "all-round red over white — fishing other than trawling", rule: "Rule 26(c)(i)" }, { id: all_round_white_lower, desc: "all-round white", rule: "Rule 26(c)(i)" }]
+  - id: pilot-vessel-night
+    match: { situation: pilot_vessel, condition: night }
+    lights:
+      - { id: all_round_white_upper, desc: "all-round white, uppermost", rule: "Rule 29(a)(i)" }
+      - { id: all_round_red_lower, desc: "all-round red, below the white", rule: "Rule 29(a)(i)" }
