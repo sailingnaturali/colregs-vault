@@ -166,3 +166,39 @@ patterns:
         note: "Forward (higher) and after (lower) anchor lights — vessel 50 m or more, at anchor."
     confirm:
       - "Two whites in a VERTICAL line → towing (Rule 24), not anchored."
+  - id: air-cushion-night
+    arrangement: [flashing_yellow]
+    condition: night
+    candidates:
+      - situation: air_cushion
+        rule: "Rule 23(b)"
+        note: "All-round flashing yellow (in addition to ordinary power-driven lights)."
+  - id: wig-night
+    arrangement: [flashing_red]
+    condition: night
+    candidates:
+      - situation: wig
+        rule: "Rule 23(c)"
+        note: "High-intensity all-round flashing red — WIG craft taking off, landing, or in flight."
+  - id: sailing-red-over-green-night
+    arrangement: [red, green]
+    condition: night
+    mnemonic: "red over green, sailing machine"
+    candidates:
+      - situation: sailing
+        rule: "Rule 25(c)"
+        note: "Optional all-round red over green at the masthead (with sidelights + sternlight below)."
+  - id: cbd-cylinder-day
+    arrangement: [cylinder]
+    condition: day
+    candidates:
+      - situation: constrained_by_draught
+        rule: "Rule 28"
+        note: "A cylinder — constrained by draught."
+  - id: fishing-cones-day
+    arrangement: [cone_down, cone_up]
+    condition: day
+    candidates:
+      - situation: fishing
+        rule: "Rule 26(c)(i)"
+        note: "Two cones with apexes together (upper apex down, lower apex up)."

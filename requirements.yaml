@@ -116,3 +116,25 @@ entries:
     lights:
       - { id: anchor_light_forward, token: white, desc: "forward anchor light, higher", rule: "Rule 30(a)(i)" }
       - { id: anchor_light_aft, token: white, desc: "after anchor light, lower", rule: "Rule 30(a)(ii)" }
+  - id: air-cushion-night
+    match: { situation: air_cushion, condition: night }
+    lights:
+      - { id: flashing_yellow_allround, token: flashing_yellow, desc: "all-round flashing yellow (non-displacement mode)", rule: "Rule 23(b)" }
+  - id: wig-night
+    match: { situation: wig, condition: night }
+    lights:
+      - { id: flashing_red_hi_intensity, token: flashing_red, desc: "high-intensity all-round flashing red (taking off / landing / in flight)", rule: "Rule 23(c)" }
+  - id: sailing-masthead-night
+    match: { situation: sailing, condition: night }
+    lights:
+      - { id: all_round_red_masthead, desc: "all-round red at the masthead", rule: "Rule 25(c)" }
+      - { id: all_round_green_masthead_low, desc: "all-round green below the red", rule: "Rule 25(c)" }
+  - id: constrained-by-draught-day
+    match: { situation: constrained_by_draught, condition: day }
+    shapes:
+      - { id: cylinder, desc: "cylinder where best seen", rule: "Rule 28" }
+  - id: fishing-day
+    match: { situation: fishing, condition: day }
+    shapes:
+      - { id: cone_apex_down, desc: "upper cone, apex downward", rule: "Rule 26(c)(i)" }
+      - { id: cone_apex_up, desc: "lower cone, apex upward (apexes together)", rule: "Rule 26(c)(i)" }
