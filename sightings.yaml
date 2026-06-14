@@ -13,6 +13,9 @@ patterns:
       - situation: vessel_aground
         rule: "Rule 30(d)(i)"
         note: "Two all-round reds — if also showing anchor light(s) and not making way, aground."
+      - situation: fishing
+        rule: "Annex II 2(c)"
+        note: "Two reds — a trawler with its net fast on an obstruction (with green-over-white)."
     confirm:
       - "Also see a white anchor light or two? May be AGROUND (Rule 30), not NUC."
       - "Sidelights + sternlight and moving -> making way; none/stationary -> stopped."
@@ -38,6 +41,8 @@ patterns:
       - situation: fishing
         rule: "Rule 26(b)"
         note: "Trawler: all-round green over all-round white."
+    confirm:
+      - "A fishing vessel shows these at anchor too; fishing lights do not imply making way."
   - id: red-over-white-night
     arrangement: [red, white]
     condition: night
@@ -48,6 +53,7 @@ patterns:
         note: "Fishing (not trawling): all-round red over all-round white."
     confirm:
       - "Order matters: WHITE over RED is a pilot vessel (Rule 29), not fishing."
+      - "A fishing vessel shows these at anchor too; fishing lights do not imply making way."
   - id: white-over-red-night
     arrangement: [white, red]
     condition: night
@@ -202,3 +208,35 @@ patterns:
       - situation: fishing
         rule: "Rule 26(c)(i)"
         note: "Two cones with apexes together (upper apex down, lower apex up)."
+  - id: fishing-gear-cone-up-day
+    arrangement: [cone_up]
+    condition: day
+    candidates:
+      - situation: fishing
+        rule: "Rule 26(c)(ii)"
+        note: "A single cone apex-up shown toward outlying gear extending over 150 m."
+  - id: fishing-shooting-night
+    arrangement: [white, white]
+    condition: night
+    candidates:
+      - situation: fishing
+        rule: "Annex II 2(a)"
+        note: "Two whites in a vertical line — trawler shooting nets (in addition to green-over-white)."
+    confirm:
+      - "Also showing green-over-white → confirms a trawler. Vertical whites with a towing config → towing."
+  - id: fishing-hauling-night
+    arrangement: [white, red]
+    condition: night
+    candidates:
+      - situation: fishing
+        rule: "Annex II 2(b)"
+        note: "White over red — trawler hauling nets (in addition to green-over-white)."
+    confirm:
+      - "On a pilot station with no trawling lights → pilot vessel (Rule 29), not hauling."
+  - id: fishing-purse-seine-night
+    arrangement: [flashing_yellow, flashing_yellow]
+    condition: night
+    candidates:
+      - situation: fishing
+        rule: "Annex II 3"
+        note: "Two yellow lights flashing alternately every second — purse-seiner hampered by its gear."

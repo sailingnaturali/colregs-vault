@@ -138,3 +138,14 @@ entries:
     shapes:
       - { id: cone_apex_down, desc: "upper cone, apex downward", rule: "Rule 26(c)(i)" }
       - { id: cone_apex_up, desc: "lower cone, apex upward (apexes together)", rule: "Rule 26(c)(i)" }
+  - id: fishing-gear-day
+    match: { situation: fishing, condition: day }
+    shapes:
+      - { id: cone_apex_up, desc: "cone, apex up, toward outlying gear (gear extends over 150 m)", rule: "Rule 26(c)(ii)" }
+  - id: fishing-annex2-night
+    match: { situation: fishing, condition: night }
+    light_options:
+      - [{ id: shoot_white_1, token: white, desc: "two white in a vertical line — shooting nets", rule: "Annex II 2(a)" }, { id: shoot_white_2, token: white, desc: "lower white", rule: "Annex II 2(a)" }]
+      - [{ id: haul_white, token: white, desc: "white over red — hauling nets", rule: "Annex II 2(b)" }, { id: haul_red, token: red, desc: "lower red", rule: "Annex II 2(b)" }]
+      - [{ id: netfast_red_1, token: red, desc: "two red in a vertical line — net fast on an obstruction", rule: "Annex II 2(c)" }, { id: netfast_red_2, token: red, desc: "lower red", rule: "Annex II 2(c)" }]
+      - [{ id: purse_yellow_1, token: flashing_yellow, desc: "two yellow flashing alternately — purse-seine hampered by gear", rule: "Annex II 3" }, { id: purse_yellow_2, token: flashing_yellow, desc: "lower yellow", rule: "Annex II 3" }]
