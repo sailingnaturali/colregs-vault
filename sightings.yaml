@@ -10,6 +10,9 @@ patterns:
       - situation: not_under_command
         rule: "Rule 27(a)"
         note: "Two all-round reds in a vertical line."
+      - situation: vessel_aground
+        rule: "Rule 30(d)(i)"
+        note: "Two all-round reds — if also showing anchor light(s) and not making way, aground."
     confirm:
       - "Also see a white anchor light or two? May be AGROUND (Rule 30), not NUC."
       - "Sidelights + sternlight and moving -> making way; none/stationary -> stopped."
@@ -127,3 +130,39 @@ patterns:
       - situation: being_towed
         rule: "Rule 24(e)(ii)"
         note: "The towed vessel/object shows the same diamond."
+  - id: minesweep-3-green-night
+    arrangement: [green, green, green]
+    condition: night
+    geometry: triangle
+    mnemonic: "three greens, mines unseen"
+    candidates:
+      - situation: mine_clearance
+        rule: "Rule 27(f)"
+        note: "Three all-round greens in a triangle — keep 1000 m clear."
+  - id: minesweep-3-ball-day
+    arrangement: [ball, ball, ball]
+    condition: day
+    geometry: triangle
+    candidates:
+      - situation: mine_clearance
+        rule: "Rule 27(f)"
+        note: "Three balls in a triangle (masthead + both yard-ends)."
+  - id: aground-3-ball-day
+    arrangement: [ball, ball, ball]
+    condition: day
+    candidates:
+      - situation: vessel_aground
+        rule: "Rule 30(d)(ii)"
+        note: "Three balls in a VERTICAL line — aground."
+    confirm:
+      - "Three balls in a TRIANGLE → mine-clearance (Rule 27(f)), not aground."
+  - id: anchored-two-white-night
+    arrangement: [white, white]
+    condition: night
+    geometry: fore_and_aft
+    candidates:
+      - situation: anchored
+        rule: "Rule 30(a)"
+        note: "Forward (higher) and after (lower) anchor lights — vessel 50 m or more, at anchor."
+    confirm:
+      - "Two whites in a VERTICAL line → towing (Rule 24), not anchored."

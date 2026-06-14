@@ -87,3 +87,32 @@ entries:
     match: { situation: being_towed, condition: day }
     shapes:
       - { id: diamond, desc: "diamond where best seen — tow exceeds 200 m", rule: "Rule 24(e)(ii)" }
+  - id: mine-clearance-night
+    match: { situation: mine_clearance, condition: night }
+    lights:
+      - { id: all_round_green_masthead, desc: "all-round green at the foremast head", rule: "Rule 27(f)" }
+      - { id: all_round_green_yard_1, desc: "all-round green, one end of the fore yard", rule: "Rule 27(f)" }
+      - { id: all_round_green_yard_2, desc: "all-round green, other end of the fore yard", rule: "Rule 27(f)" }
+  - id: mine-clearance-day
+    match: { situation: mine_clearance, condition: day }
+    shapes:
+      - { id: ball_masthead, token: ball, desc: "ball at the foremast head", rule: "Rule 27(f)" }
+      - { id: ball_yard_1, token: ball, desc: "ball, one end of the fore yard", rule: "Rule 27(f)" }
+      - { id: ball_yard_2, token: ball, desc: "ball, other end of the fore yard", rule: "Rule 27(f)" }
+  - id: aground-night
+    match: { situation: vessel_aground, condition: night }
+    lights:
+      - { id: all_round_red_upper, desc: "all-round red", rule: "Rule 30(d)(i)" }
+      - { id: all_round_red_lower, desc: "all-round red, below the first", rule: "Rule 30(d)(i)" }
+      - { id: anchor_light, token: null, desc: "anchor light(s) also shown (context, not part of the two-red signal)", rule: "Rule 30(d)" }
+  - id: aground-day
+    match: { situation: vessel_aground, condition: day }
+    shapes:
+      - { id: ball_upper, token: ball, desc: "ball, uppermost", rule: "Rule 30(d)(ii)" }
+      - { id: ball_middle, token: ball, desc: "ball, middle", rule: "Rule 30(d)(ii)" }
+      - { id: ball_lower, token: ball, desc: "ball, lowest", rule: "Rule 30(d)(ii)" }
+  - id: anchored-over-50m-night
+    match: { situation: anchored, condition: night, length_gte: 50 }
+    lights:
+      - { id: anchor_light_forward, token: white, desc: "forward anchor light, higher", rule: "Rule 30(a)(i)" }
+      - { id: anchor_light_aft, token: white, desc: "after anchor light, lower", rule: "Rule 30(a)(ii)" }
