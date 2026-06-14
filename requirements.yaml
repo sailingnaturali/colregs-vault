@@ -73,7 +73,7 @@ entries:
     match: { situation: towing, condition: night }
     light_options:
       - [{ id: masthead_white_1, token: white, desc: "masthead light, forward", rule: "Rule 24(a)(i)" }, { id: masthead_white_2, token: white, desc: "masthead light below the first (vertical line)", rule: "Rule 24(a)(i)" }]
-      - [{ id: masthead_white_1, token: white, desc: "masthead light, forward", rule: "Rule 24(c)" }, { id: masthead_white_2, token: white, desc: "second masthead light", rule: "Rule 24(c)" }, { id: masthead_white_3, token: white, desc: "third masthead light (tow exceeds 200 m)", rule: "Rule 24(c)" }]
+      - [{ id: masthead_white_1, token: white, desc: "masthead light, forward", rule: "Rule 24(a)(i)" }, { id: masthead_white_2, token: white, desc: "second masthead light", rule: "Rule 24(a)(i)" }, { id: masthead_white_3, token: white, desc: "third masthead light (tow exceeds 200 m)", rule: "Rule 24(a)(i)" }]
   - id: towing-stern-night
     match: { situation: towing, condition: night }
     lights:
