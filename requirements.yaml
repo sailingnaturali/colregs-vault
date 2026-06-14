@@ -69,3 +69,21 @@ entries:
     lights:
       - { id: all_round_white_upper, desc: "all-round white, uppermost", rule: "Rule 29(a)(i)" }
       - { id: all_round_red_lower, desc: "all-round red, below the white", rule: "Rule 29(a)(i)" }
+  - id: towing-masthead-night
+    match: { situation: towing, condition: night }
+    light_options:
+      - [{ id: masthead_white_1, token: white, desc: "masthead light, forward", rule: "Rule 24(a)(i)" }, { id: masthead_white_2, token: white, desc: "masthead light below the first (vertical line)", rule: "Rule 24(a)(i)" }]
+      - [{ id: masthead_white_1, token: white, desc: "masthead light, forward", rule: "Rule 24(c)" }, { id: masthead_white_2, token: white, desc: "second masthead light", rule: "Rule 24(c)" }, { id: masthead_white_3, token: white, desc: "third masthead light (tow exceeds 200 m)", rule: "Rule 24(c)" }]
+  - id: towing-stern-night
+    match: { situation: towing, condition: night }
+    lights:
+      - { id: towing_light, token: yellow, desc: "yellow towing light above the sternlight", rule: "Rule 24(a)(iv)" }
+      - { id: sternlight, token: white, desc: "sternlight", rule: "Rule 24(a)(iii)" }
+  - id: towing-day-over-200m
+    match: { situation: towing, condition: day }
+    shapes:
+      - { id: diamond, desc: "diamond where best seen — tow exceeds 200 m", rule: "Rule 24(a)(v)" }
+  - id: being-towed-day-over-200m
+    match: { situation: being_towed, condition: day }
+    shapes:
+      - { id: diamond, desc: "diamond where best seen — tow exceeds 200 m", rule: "Rule 24(e)(ii)" }
