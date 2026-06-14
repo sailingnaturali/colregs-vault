@@ -1,5 +1,5 @@
 version: 1
-# ⚠️ UNVERIFIED DRAFT — pending Bryan's line-by-line review against the rule text.
+
 entries:
   - id: anchored-under-50m-night
     match: { situation: anchored, condition: night, length_lt: 50 }
