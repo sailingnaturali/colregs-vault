@@ -23,3 +23,5 @@ def test_render_flags_and_ranks():
     assert "suggest `X`" in out
     assert "## Model agreement" in out
     assert "2 of 3 rows flagged" in out
+    assert "a: ok 2, wrong 1, unsure 0" in out
+    assert "b: ok 1, wrong 2, unsure 0" in out

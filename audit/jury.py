@@ -51,12 +51,17 @@ def get_verdict(client: Client, item: CheckItem, retries: int = 1) -> dict:
         return {"verdict": "wrong", "confidence": 1.0,
                 "reason": "citation does not resolve to a rule file", "suggested_fix": ""}
     system, user = build_prompt(item)
+    last_error = None
     for _ in range(retries + 1):
-        parsed = parse_verdict(client(system, user))
+        try:
+            parsed = parse_verdict(client(system, user))
+        except Exception as e:  # noqa: BLE001 — any client/SDK error degrades to unsure
+            last_error = e
+            continue
         if parsed:
             return parsed
-    return {"verdict": "unsure", "confidence": 0.0,
-            "reason": "unparseable model output", "suggested_fix": ""}
+    reason = f"model error: {last_error}" if last_error else "unparseable model output"
+    return {"verdict": "unsure", "confidence": 0.0, "reason": reason, "suggested_fix": ""}
 
 
 def run_jury(items, clients: dict[str, Client]):

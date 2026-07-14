@@ -8,7 +8,7 @@ from pathlib import Path
 from audit.checks import build_checks
 from audit.jury import run_jury
 from audit.models import available_models, load_model_configs, make_client
-from audit.report import render
+from audit.report import render, _flagged
 
 _ROOT = Path(__file__).resolve().parent.parent
 
@@ -23,6 +23,11 @@ def main() -> None:
 
     only = [m.strip() for m in args.models.split(",") if m.strip()] or None
     configs = load_model_configs(args.models_config)
+    if only:
+        config_names = {c["name"] for c in configs}
+        for name in only:
+            if name not in config_names:
+                print(f"warning: --models '{name}' matches no entry in models.yaml")
     clients = {}
     for cfg, ok in available_models(configs, only):
         if not ok:
@@ -40,9 +45,7 @@ def main() -> None:
     out = args.vault_root / "audit" / "reports" / f"{date}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(render(results, list(clients), date))
-    flagged = sum(1 for _i, v in results
-                  if any(x["verdict"] == "wrong" for x in v.values())
-                  or len({x["verdict"] for x in v.values()}) > 1)
+    flagged = sum(1 for _i, v in results if _flagged(v))
     print(f"wrote {out} — {flagged} rows flagged")
 
 

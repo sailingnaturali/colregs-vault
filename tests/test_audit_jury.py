@@ -55,3 +55,15 @@ def test_run_jury_collects_per_model_verdicts():
     _item_out, verdicts = results[0]
     assert verdicts["a"]["verdict"] == "ok"
     assert verdicts["b"]["verdict"] == "wrong"
+
+
+def test_get_verdict_handles_client_exceptions():
+    calls = {"n": 0}
+
+    def raiser(system, user):
+        calls["n"] += 1
+        raise RuntimeError("boom")
+    v = get_verdict(raiser, _item(), retries=1)
+    assert v["verdict"] == "unsure"
+    assert "model error" in v["reason"]
+    assert calls["n"] == 2                               # initial + one retry
