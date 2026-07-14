@@ -14,7 +14,7 @@ patterns:
         rule: "Rule 30(d)(i)"
         note: "Two all-round reds — if also showing anchor light(s) and not making way, aground."
       - situation: fishing
-        rule: "Annex II 2(c)"
+        rule: "Annex II 2(a)(iii)"
         note: "Two reds — a trawler with its net fast on an obstruction (with green-over-white)."
     confirm:
       - "Also see a white anchor light or two? May be AGROUND (Rule 30), not NUC."
@@ -69,7 +69,7 @@ patterns:
     condition: night
     candidates:
       - situation: anchored
-        rule: "Rule 30(a)"
+        rule: "Rule 30(b)"
         note: "Single all-round white forward (vessel under 50 m)."
   - id: anchor-ball-day
     arrangement: [ball]
@@ -115,7 +115,7 @@ patterns:
     condition: night
     candidates:
       - situation: towing
-        rule: "Rule 24(c)"
+        rule: "Rule 24(a)(i)"
         note: "Three white masthead lights in a vertical line — tow exceeds 200 m."
   - id: towing-light-aft-night
     arrangement: [yellow, white]
@@ -220,7 +220,7 @@ patterns:
     condition: night
     candidates:
       - situation: fishing
-        rule: "Annex II 2(a)"
+        rule: "Annex II 2(a)(i)"
         note: "Two whites in a vertical line — trawler shooting nets (in addition to green-over-white)."
     confirm:
       - "Also showing green-over-white → confirms a trawler. Vertical whites with a towing config → towing."
@@ -229,7 +229,7 @@ patterns:
     condition: night
     candidates:
       - situation: fishing
-        rule: "Annex II 2(b)"
+        rule: "Annex II 2(a)(ii)"
         note: "White over red — trawler hauling nets (in addition to green-over-white)."
     confirm:
       - "On a pilot station with no trawling lights → pilot vessel (Rule 29), not hauling."

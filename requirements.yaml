@@ -3,7 +3,7 @@ version: 1
 entries:
   - id: anchored-under-50m-night
     match: { situation: anchored, condition: night, length_lt: 50 }
-    lights: [{ id: anchor_light, desc: "all-round white, where best seen", rule: "Rule 30(a)" }]
+    lights: [{ id: anchor_light, desc: "all-round white, where best seen", rule: "Rule 30(b)" }]
     forbids: [sidelights, sternlight, masthead_steaming, tricolor]
   - id: anchored-under-50m-day
     match: { situation: anchored, condition: day, length_lt: 50 }
@@ -145,7 +145,7 @@ entries:
   - id: fishing-annex2-night
     match: { situation: fishing, condition: night }
     light_options:
-      - [{ id: shoot_white_1, token: white, desc: "two white in a vertical line — shooting nets", rule: "Annex II 2(a)" }, { id: shoot_white_2, token: white, desc: "lower white", rule: "Annex II 2(a)" }]
-      - [{ id: haul_white, token: white, desc: "white over red — hauling nets", rule: "Annex II 2(b)" }, { id: haul_red, token: red, desc: "lower red", rule: "Annex II 2(b)" }]
-      - [{ id: netfast_red_1, token: red, desc: "two red in a vertical line — net fast on an obstruction", rule: "Annex II 2(c)" }, { id: netfast_red_2, token: red, desc: "lower red", rule: "Annex II 2(c)" }]
+      - [{ id: shoot_white_1, token: white, desc: "two white in a vertical line — shooting nets", rule: "Annex II 2(a)(i)" }, { id: shoot_white_2, token: white, desc: "lower white", rule: "Annex II 2(a)(i)" }]
+      - [{ id: haul_white, token: white, desc: "white over red — hauling nets", rule: "Annex II 2(a)(ii)" }, { id: haul_red, token: red, desc: "lower red", rule: "Annex II 2(a)(ii)" }]
+      - [{ id: netfast_red_1, token: red, desc: "two red in a vertical line — net fast on an obstruction", rule: "Annex II 2(a)(iii)" }, { id: netfast_red_2, token: red, desc: "lower red", rule: "Annex II 2(a)(iii)" }]
       - [{ id: purse_yellow_1, token: flashing_yellow, desc: "two yellow flashing alternately — purse-seine hampered by gear", rule: "Annex II 3" }, { id: purse_yellow_2, token: flashing_yellow, desc: "lower yellow", rule: "Annex II 3" }]
