@@ -12,6 +12,10 @@ models:
     provider: openai_compat
     base_url: http://localhost:11434/v1
     model: qwen2.5:14b
+  - name: gemma4
+    provider: openai_compat
+    base_url: http://localhost:11434/v1
+    model: gemma4:latest
   - name: llama3.1
     provider: openai_compat
     base_url: http://localhost:11434/v1
