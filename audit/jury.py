@@ -32,6 +32,8 @@ def parse_verdict(text: str) -> dict | None:
         d = json.loads(text)
     except (ValueError, TypeError):
         return None
+    if not isinstance(d, dict):
+        return None
     verdict = d.get("verdict", "unsure")
     if verdict not in _VERDICTS:
         verdict = "unsure"

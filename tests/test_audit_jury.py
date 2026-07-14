@@ -36,6 +36,14 @@ def test_dangling_citation_is_wrong_without_calling_model():
     assert v["verdict"] == "wrong" and called["n"] == 0
 
 
+def test_parse_verdict_rejects_non_object_json():
+    # Valid JSON but not an object should return None (triggering retry/unsure fallback)
+    assert parse_verdict("null") is None
+    assert parse_verdict("5") is None
+    assert parse_verdict("[1,2]") is None
+    assert parse_verdict('"hi"') is None
+
+
 def test_run_jury_collects_per_model_verdicts():
     def ok_client(system, user):
         return '{"verdict":"ok","confidence":1,"reason":"","suggested_fix":""}'
