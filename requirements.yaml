@@ -18,7 +18,7 @@ entries:
   - id: motorsailing-night
     match: { situation: motorsailing, condition: night }
     lights:
-      - { id: masthead_steaming, desc: "masthead light, forward", rule: "Rule 25(e)+23(a)" }
+      - { id: masthead_steaming, desc: "masthead light, forward", rule: "Rule 23(a)(i)" }
       - { id: sidelights, desc: "red port / green starboard", rule: "Rule 23(a)(iii)" }
       - { id: sternlight, desc: "white sternlight", rule: "Rule 23(a)(iv)" }
     forbids: [tricolor]
