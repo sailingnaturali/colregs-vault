@@ -74,3 +74,20 @@ exact source versions. Remaining review:
       deterministic, so a clean sample validates the parser. Pay extra attention to
       **annex tables** (Annex I/III), which are reflowed to plain text.
 - [ ] Replace the coarse regime polygons with real demarcation-line geometry.
+
+## Auditing the curated tables
+
+`audit/` runs a jury of models over every `requirements.yaml` / `sightings.yaml`
+citation, checking each against the cited rule's prose and flagging disagreements.
+It never edits the vault — it writes a dated report under `audit/reports/`.
+
+```bash
+uv run --group audit python -m audit                       # all available models
+uv run --group audit python -m audit --models gpt-4o,qwen2.5:14b,qwen2.5:72b
+```
+
+Add a model from anywhere by editing `audit/models.yaml`: `openai_compat` entries
+point the OpenAI SDK at any `base_url` (local ollama, OpenAI, OpenRouter, a gateway);
+`anthropic` entries use the Anthropic SDK. A model whose `api_key_env` is unset is
+skipped. Larger local models (`qwen2.5:72b`, etc.) are available via ollama. See
+`docs/superpowers/specs/2026-07-13-colregs-vault-audit-design.md`.

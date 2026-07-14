@@ -8,6 +8,10 @@ models:
     provider: openai_compat
     base_url: http://localhost:11434/v1
     model: qwen2.5:72b
+  - name: qwen2.5:14b
+    provider: openai_compat
+    base_url: http://localhost:11434/v1
+    model: qwen2.5:14b
   - name: llama3.1
     provider: openai_compat
     base_url: http://localhost:11434/v1
