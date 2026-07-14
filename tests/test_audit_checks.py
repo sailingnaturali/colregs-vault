@@ -57,6 +57,17 @@ def test_paired_shapes_sharing_a_citation_are_one_combined_element():
     assert "apex downward" in desc and "apex upward" in desc    # both cones combined
 
 
+def test_grouping_does_not_merge_across_light_options():
+    # towing-masthead-night has a 2-light option AND a 3-light option, both citing
+    # 24(a)(i). Combining paired shapes must NOT merge across the two alternatives
+    # (that would read as four masthead lights); one option's arrangement is enough.
+    items = build_checks(VAULT)
+    towing = next(i for i in items
+                  if i.row_id == "towing-masthead-night" and i.citation == "Rule 24(a)(i)")
+    assert "third masthead" not in towing.signal_desc
+    assert towing.signal_desc.count("masthead") <= 2
+
+
 def test_light_options_render_as_alternatives_not_flattened():
     # sailing-under-20m-night is (sidelights + sternlight) OR (tricolor) — either/or,
     # so the context must not read as all shown at once.

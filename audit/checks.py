@@ -38,26 +38,27 @@ def _requirements_rows(data):
         situation = match.get("situation", "")
         condition = match.get("condition", "")
         length = _length_phrase(match)
-        lights = list(entry.get("lights", [])) + list(entry.get("shapes", []))
+        fixed = list(entry.get("lights", [])) + list(entry.get("shapes", []))
+        options = [list(o) for o in entry.get("light_options", [])]
         # full_signal shows the fixed lights/shapes plus any light_options as *alternatives*
         # (they are either/or, so flattening them into one list would read as contradictory).
         parts = []
-        fixed = [l["desc"] for l in lights if l.get("desc")]
-        if fixed:
-            parts.append("; ".join(fixed))
-        option_sets = []
-        for opt in entry.get("light_options", []):
-            lights += list(opt)
-            descs = [l["desc"] for l in opt if l.get("desc")]
-            if descs:
-                option_sets.append(", ".join(descs))
+        fixed_descs = [l["desc"] for l in fixed if l.get("desc")]
+        if fixed_descs:
+            parts.append("; ".join(fixed_descs))
+        option_sets = [", ".join(l["desc"] for l in o if l.get("desc")) for o in options]
+        option_sets = [s for s in option_sets if s]
         if option_sets:
             parts.append("one of: " + " OR ".join(f"[{s}]" for s in option_sets))
         full_signal = "; ".join(parts)
-        for light in lights:
-            if "rule" in light:
-                yield (rid, situation, light.get("desc", ""), light["rule"],
-                       condition, length, full_signal)
+        # Tag each element with its arrangement group (fixed lights vs each either/or
+        # option) so build_checks only combines descriptions actually shown together.
+        groups = [("fixed", fixed)] + [(f"option{k}", o) for k, o in enumerate(options)]
+        for gname, elements in groups:
+            for light in elements:
+                if "rule" in light:
+                    yield (rid, situation, light.get("desc", ""), light["rule"],
+                           condition, length, full_signal, gname)
 
 
 def _sightings_rows(data):
@@ -66,11 +67,11 @@ def _sightings_rows(data):
         rid = pat["id"]
         arrangement = ", ".join(pat.get("arrangement", []))
         condition = pat.get("condition", "")
-        for cand in pat.get("candidates", []):
+        for k, cand in enumerate(pat.get("candidates", [])):
             note = cand.get("note", "")
             desc = f"{arrangement} [{condition}]: {note}".strip()
             yield (rid, cand.get("situation", ""), desc, cand["rule"],
-                   condition, "", arrangement)
+                   condition, "", arrangement, f"cand{k}")
 
 
 def build_checks(vault_root) -> list[CheckItem]:
@@ -82,21 +83,26 @@ def build_checks(vault_root) -> list[CheckItem]:
     # Group by (source, row_id, citation): several elements can share one citation —
     # e.g. the two cones of a fishing dayshape, the three balls of a vessel aground.
     # Combine their descriptions so the citation is judged against the whole shape it
-    # prescribes, not one fragment of it.
+    # prescribes — but only within one arrangement group, so either/or light_options
+    # (e.g. the 2-light vs 3-light tow, both citing 24(a)(i)) aren't merged into one
+    # contradictory signal.
     order: list[tuple[str, str, str]] = []
     grouped: dict[tuple[str, str, str], CheckItem] = {}
+    group_of: dict[tuple[str, str, str], str] = {}
     for name, extractor in sources:
         data = yaml.safe_load((vault_root / name).read_text())
-        for rid, situation, signal, ref, condition, length, full_signal in extractor(data):
+        for rid, situation, signal, ref, condition, length, full_signal, arr_group in extractor(data):
             for citation in (s.strip() for s in ref.split("+")):
                 key = (name, rid, citation)
                 if key not in grouped:
                     order.append(key)
+                    group_of[key] = arr_group
                     grouped[key] = CheckItem(
                         source=name, row_id=rid, situation=situation,
                         signal_desc=signal, citation=citation,
                         rule_prose=load_rule_prose(vault_root, citation),
                         condition=condition, length=length, full_signal=full_signal)
-                elif signal and signal not in grouped[key].signal_desc.split("; "):
+                elif (arr_group == group_of[key] and signal
+                      and signal not in grouped[key].signal_desc.split("; ")):
                     grouped[key].signal_desc = f"{grouped[key].signal_desc}; {signal}".strip("; ")
     return [grouped[k] for k in order]
