@@ -83,11 +83,19 @@ It never edits the vault — it writes a dated report under `audit/reports/`.
 
 ```bash
 uv run --group audit python -m audit                       # all available models
-uv run --group audit python -m audit --models gpt-4o,qwen2.5:14b,qwen2.5:72b
+uv run --group audit python -m audit --models gpt-4o,qwen2.5:72b,llama3.3
+```
+
+The report splits **consensus concerns** (≥2 models agree a citation is wrong — the real
+review list) from **single-model flags** (one model dissents — usually that model's noise).
+A jury of diverse model *families* is the point: no single model's blind spot decides an
+outcome. Pick jury members empirically with the bench:
+
+```bash
+uv run --group audit python -m audit.bench --models qwen2.5:72b,llama3.3,gpt-4o
 ```
 
 Add a model from anywhere by editing `audit/models.yaml`: `openai_compat` entries
 point the OpenAI SDK at any `base_url` (local ollama, OpenAI, OpenRouter, a gateway);
 `anthropic` entries use the Anthropic SDK. A model whose `api_key_env` is unset is
-skipped. Larger local models (`qwen2.5:72b`, etc.) are available via ollama. See
-`docs/superpowers/specs/2026-07-13-colregs-vault-audit-design.md`.
+skipped. See `docs/superpowers/specs/2026-07-13-colregs-vault-audit-design.md`.
