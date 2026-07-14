@@ -11,7 +11,6 @@ from __future__ import annotations
 import argparse
 import datetime
 import hashlib
-import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -23,59 +22,7 @@ from colregs_build import ecfr, handbook, justice          # noqa: E402
 from colregs_build.fetch import (ECFR_URL, ECFR_PARTS, JUSTICE_URL, ecfr_path,
                                  fetch_sources, justice_path, meta_path)  # noqa: E402
 from colregs_build.model import RuleDoc, write_doc          # noqa: E402
-
-EXPECTED: dict[str, list[str]] = {
-    "international": [str(n) for n in range(1, 39)]
-                     + ["Annex I", "Annex II", "Annex III", "Annex IV"],
-    "inland": [str(n) for n in range(1, 39)]
-              + ["Annex I", "Annex II", "Annex III", "Annex IV", "Annex V"],
-    "canadian": [str(n) for n in range(1, 47)]
-                + ["Annex I", "Annex II", "Annex III", "Annex IV"],
-}
-_ARTIFACTS = re.compile(r"—CONTINUED|\(continued\)", re.IGNORECASE)
-
-
-def _is_reserved_stub(d: RuleDoc) -> bool:
-    return "reserved" in d.prose[:60].lower()
-
-
-def validate(docs: list[RuleDoc]) -> list[str]:
-    errors: list[str] = []
-    by_regime: dict[str, list[RuleDoc]] = {r: [] for r in EXPECTED}
-    for d in docs:
-        by_regime.setdefault(d.regime, []).append(d)
-    for regime, expected in EXPECTED.items():
-        got = [d.number for d in by_regime[regime]]
-        for n in sorted(set(expected) - set(got)):
-            errors.append(f"{regime}: missing {n}")
-        for n in sorted(set(got) - set(expected)):
-            errors.append(f"{regime}: unexpected {n}")
-        for d in by_regime[regime]:
-            if not d.prose.strip():
-                errors.append(f"{regime} {d.number}: empty prose")
-                continue
-            if _ARTIFACTS.search(d.prose):
-                errors.append(f"{regime} {d.number}: print artifact in prose")
-            if not d.title:
-                errors.append(f"{regime} {d.number}: missing title")
-            if d.number.isdigit() and len(d.title) > 80:
-                errors.append(f"{regime} {d.number}: suspicious title ({len(d.title)} chars)")
-            if (d.number.isdigit() and len(d.prose) < 40
-                    and not _is_reserved_stub(d)):
-                errors.append(f"{regime} {d.number}: prose suspiciously short")
-    return errors
-
-
-def report(docs: list[RuleDoc]) -> None:
-    print(f"{'regime':<15}{'rules':>6}{'annexes':>9}{'words':>9}")
-    for regime in EXPECTED:
-        rs = [d for d in docs if d.regime == regime]
-        rules = [d for d in rs if d.number.isdigit()]
-        annexes = [d for d in rs if not d.number.isdigit()]
-        words = sum(len(d.prose.split()) for d in rs)
-        print(f"{regime:<15}{len(rules):>6}{len(annexes):>9}{words:>9}")
-    print("\nNote: annex tables (esp. Annex I/III) are reflowed plain text — "
-          "include them in the human review sample.")
+from colregs_build.validate import EXPECTED, report, validate  # noqa: E402
 
 
 def write_manifest(root: Path, ecfr_date: str, retrieved: str,
@@ -126,14 +73,17 @@ def build(vault_root: Path, handbook_pdf: Path, fetch: bool, ecfr_date: str) -> 
     sched = ET.fromstring(justice_xml).find("Schedule")
     justice_amended = sched.get("{http://justice.gc.ca/lims}lastAmendedDate", "")
 
-    pages = handbook.international_pages(
-        handbook.split_pages(handbook.run_pdftotext(str(handbook_pdf))))
+    raw = handbook.strip_figure_captions(handbook.run_pdftotext(str(handbook_pdf)))
+    pages = handbook.international_pages(handbook.split_pages(raw))
     docs += handbook.parse_international(pages, handbook_pdf.name)
 
     errors = validate(docs)
     if errors:
         sys.exit("BUILD FAILED:\n  " + "\n  ".join(errors))
 
+    # ponytail: write phase isn't atomic — validate() above gates it, but a crash
+    # after the unlink loop leaves rules/ half-rewritten. Fine for a one-shot local
+    # build tool; make it write-to-temp-then-swap if it ever runs unattended.
     rules_dir = vault_root / "rules"
     old = {p: p.read_text() for p in rules_dir.rglob("*.md")}
     for p in old:

@@ -25,11 +25,40 @@ _SECTION = re.compile(r"^Section [IVX]+", re.IGNORECASE)
 _PARA_CONT = re.compile(r"^\([a-z0-9]+\)\s*\(continued\)$", re.IGNORECASE)
 _PARA_START = re.compile(r"^(\([a-z0-9ivx]+\)|\d+\.)\s")
 _STOP = "INTERPRETATIVE RULES"
+# The handbook sets a figure caption below each illustration as its own blank-line-
+# delimited block, always closing with a regime tag. Rule prose and titles never end
+# this way, so dropping such blocks strips captions without touching regulatory text.
+_REGIME_TAG = re.compile(
+    r"Same for (?:Inland|International)|International only|Inland only")
 
 
 def run_pdftotext(pdf_path: str) -> str:
     return subprocess.run(["pdftotext", pdf_path, "-"],
                           capture_output=True, text=True, check=True).stdout
+
+
+def strip_figure_captions(text: str) -> str:
+    """Remove illustration captions before page-splitting.
+
+    A caption is set off from the rule prose above it by a blank line, so it always
+    *starts* a block, and it carries a regime tag (e.g. 'Same for Inland'). It may run
+    over several lines and the next paragraph can follow with no intervening blank. The
+    caption itself is never a numbered sub-paragraph, so within such a block real prose
+    resumes only at the first paragraph label — drop everything before that (the whole
+    block if there is none). Blocks that open with a paragraph label are prose, untouched.
+    """
+    kept = []
+    for block in re.split(r"\n[ \t]*\n", text):
+        lines = block.splitlines()
+        has_tag = any(_REGIME_TAG.search(l) for l in lines)
+        if has_tag and lines and not _PARA_START.match(lines[0].strip()):
+            resume = next((k for k in range(1, len(lines))
+                           if _PARA_START.match(lines[k].strip())), None)
+            if resume is not None:
+                kept.append("\n".join(lines[resume:]))
+            continue
+        kept.append(block)
+    return "\n\n".join(kept)
 
 
 def split_pages(text: str) -> list[list[str]]:

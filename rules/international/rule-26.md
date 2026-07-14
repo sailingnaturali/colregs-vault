@@ -14,7 +14,7 @@ source_pdf: Nav Rules Handbook_Corrected_08-12-2024.pdf pp. 77-81
 
 (ii) a masthead light abaft of and higher than the all-round green light; a vessel of less than 50 meters in length shall not be obliged to exhibit such a light but may do so;
 
-(iii) when making way through the water, in addition to the lights prescribed in this paragraph, sidelights and a sternlight. Vessel engaged in trawling—making way; vessel less than 50 meters in length. Same for Inland. Vessel engaged in trawling – making way; 50 meters or greater in length. Same for Inland.
+(iii) when making way through the water, in addition to the lights prescribed in this paragraph, sidelights and a sternlight.
 
 (c) A vessel engaged in fishing, other than trawling, shall exhibit:
 
@@ -24,6 +24,6 @@ source_pdf: Nav Rules Handbook_Corrected_08-12-2024.pdf pp. 77-81
 
 (iii) when making way through the water, in addition to the lights prescribed in this paragraph, sidelights and a sternlight.
 
-(d) The additional signals described in Annex II to these Rules apply to a vessel engaged in fishing in close proximity to other vessels engaged in fishing. Vessel engaged in fishing other than trawling—making way. Same for Inland.
+(d) The additional signals described in Annex II to these Rules apply to a vessel engaged in fishing in close proximity to other vessels engaged in fishing.
 
 (e) A vessel when not engaged in fishing shall not exhibit the lights or shapes prescribed in this Rule, but only those prescribed for a vessel of her length.

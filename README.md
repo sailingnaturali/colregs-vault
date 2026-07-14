@@ -16,6 +16,8 @@ The server reads this directory via the `COLREGS_VAULT_PATH` environment variabl
   re-run the build instead). Powers `get_rule` / `search_rules`.
 - `requirements.yaml` — the curated decision table mapping a vessel situation to the lights and
   shapes the rules require. Powers `required_signals` / `check_compliance`. **Safety-critical.**
+- `sightings.yaml` — the curated light/shape *arrangement* patterns mapping what you see to
+  candidate situations and rules. Powers `identify_signals` / `list_signal_patterns`.
 - `regime-polygons.geojson` — coarse PNW polygons resolving which regime applies by position.
 - `manifest.yaml` — source provenance.
 
@@ -51,10 +53,12 @@ Because both source bodies are freely reproducible, this vault is public (unlike
 - `inland` — US San Juans / Puget Sound box (a coarse stand-in for the 33 CFR 80 demarcation).
 - International is the default when no polygon matches.
 
-The two boxes **overlap slightly near the marine border** (≈ lat 48.65–48.7). The loader returns
-the **first** matching polygon and `canadian` is listed first, so the overlap resolves to Canadian
-waters — an acceptable v0 bias for the Gulf Islands cruising grounds. Refine against the real
-international maritime boundary and 33 CFR 80 lines before relying on regime resolution near the border.
+The boxes do **not** meet at the marine border: there is a ~3 nm gap (≈ lat 48.65–48.7) that
+matches neither polygon and therefore falls through to the **International** default. Positions
+north of 48.7 resolve Canadian; south of 48.65, Inland. The loader returns the **first** matching
+polygon (`canadian` is listed first) only where boxes genuinely overlap, which today they don't.
+Refine against the real international maritime boundary and 33 CFR 80 lines — and close this gap —
+before relying on regime resolution near the border.
 
 ## Review checklist (BLOCKING — Bryan)
 

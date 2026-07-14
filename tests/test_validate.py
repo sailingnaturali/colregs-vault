@@ -1,12 +1,5 @@
+from colregs_build import validate as build_vault
 from colregs_build.model import RuleDoc
-
-import importlib.util
-from pathlib import Path
-
-spec = importlib.util.spec_from_file_location(
-    "build_vault", Path(__file__).resolve().parent.parent / "scripts" / "build_vault.py")
-build_vault = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(build_vault)
 
 
 def full_set():

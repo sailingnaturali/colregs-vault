@@ -16,9 +16,9 @@ source_pdf: Nav Rules Handbook_Corrected_08-12-2024.pdf pp. 55-67
 
 (iv) a towing light in a vertical line above the sternlight; and
 
-(v) when the length of the tow exceeds 200 meters, a diamond shape where it can best be seen. Power-driven vessel towing astern—towing vessel less than 50 meters in length; length of tow exceeds 200 meters. Same for Inland
+(v) when the length of the tow exceeds 200 meters, a diamond shape where it can best be seen.
 
-(b) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and exhibit the lights prescribed in Rule 23. Composite unit underway. Same for Inland.
+(b) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and exhibit the lights prescribed in Rule 23.
 
 (c) A power-driven vessel when pushing ahead or towing alongside, except in the case of a composite unit, shall exhibit:
 
@@ -26,9 +26,9 @@ source_pdf: Nav Rules Handbook_Corrected_08-12-2024.pdf pp. 55-67
 
 (ii) sidelights; and
 
-(iii) a sternlight. Power-driven vessel pushing ahead or towing alongside— towing vessel less than 50 meters in length. International only.
+(iii) a sternlight.
 
-(d) A power-driven vessel to which paragraph (a) or (c) of this Rule applies shall also comply with Rule 23(a)(ii). Power-driven vessel towing astern—length of tow 200 meters or less. The after masthead light is optional for vessel less than 50 meters in length. Same for Inland.
+(d) A power-driven vessel to which paragraph (a) or (c) of this Rule applies shall also comply with Rule 23(a)(ii).
 
 (e) A vessel or object being towed, other than those mentioned in paragraph
 
@@ -38,13 +38,13 @@ source_pdf: Nav Rules Handbook_Corrected_08-12-2024.pdf pp. 55-67
 
 (ii) a sternlight;
 
-(iii) when the length of the tow exceeds 200 meters, a diamond shape where it can best be seen. Vessel or object being towed—length of tow exceeds 200 meters. Same for Inland.
+(iii) when the length of the tow exceeds 200 meters, a diamond shape where it can best be seen.
 
 (f) Provided that any number of vessels being towed alongside or pushed in a group shall be lighted as one vessel:
 
 (i) a vessel being pushed ahead, not being part of a composite unit, shall exhibit at the forward end, sidelights;
 
-(ii) a vessel being towed alongside shall exhibit a sternlight and at the forward end, sidelights. Vessel being pushed ahead, not being part of a composite unit. International only. Vessel being towed alongside. International only.
+(ii) a vessel being towed alongside shall exhibit a sternlight and at the forward end, sidelights.
 
 (g) An inconspicuous, partly submerged vessel or object, or combination of such vessels or objects being towed, shall exhibit:
 
