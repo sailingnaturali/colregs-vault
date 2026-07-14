@@ -1,0 +1,24 @@
+# Drop in a model from anywhere by adding an entry.
+#   provider: openai_compat  -> the openai SDK pointed at base_url (ollama, OpenAI,
+#                               OpenRouter, any gateway). api_key_env optional (ollama
+#                               ignores it). Model must serve /v1/chat/completions.
+#   provider: anthropic      -> the anthropic SDK; requires api_key_env to be set.
+models:
+  - name: qwen2.5:72b
+    provider: openai_compat
+    base_url: http://localhost:11434/v1
+    model: qwen2.5:72b
+  - name: llama3.1
+    provider: openai_compat
+    base_url: http://localhost:11434/v1
+    model: llama3.1:latest
+  - name: gpt-4o
+    provider: openai_compat
+    base_url: https://api.openai.com/v1
+    model: gpt-4o
+    api_key_env: OPENAI_API_KEY
+  # Inert until ANTHROPIC_API_KEY is set. Confirm the model id via the claude-api skill.
+  - name: claude
+    provider: anthropic
+    model: claude-sonnet-5
+    api_key_env: ANTHROPIC_API_KEY
