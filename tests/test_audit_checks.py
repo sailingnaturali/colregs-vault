@@ -45,6 +45,18 @@ def test_full_signal_holds_the_whole_multi_shape_arrangement():
     assert "apex downward" in fishing.full_signal and "apex upward" in fishing.full_signal
 
 
+def test_paired_shapes_sharing_a_citation_are_one_combined_element():
+    # fishing-day is two cones apexes-together, both citing Rule 26(c)(i); the single
+    # item for that citation must carry BOTH cones so the shape is judged as a unit,
+    # not just the first cone in isolation.
+    items = build_checks(VAULT)
+    fishing = [i for i in items
+               if i.row_id == "fishing-day" and i.citation == "Rule 26(c)(i)"]
+    assert len(fishing) == 1                                    # still one item per (row, citation)
+    desc = fishing[0].signal_desc
+    assert "apex downward" in desc and "apex upward" in desc    # both cones combined
+
+
 def test_light_options_render_as_alternatives_not_flattened():
     # sailing-under-20m-night is (sidelights + sternlight) OR (tricolor) — either/or,
     # so the context must not read as all shown at once.

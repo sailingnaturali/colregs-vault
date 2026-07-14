@@ -79,19 +79,24 @@ def build_checks(vault_root) -> list[CheckItem]:
         ("requirements.yaml", _requirements_rows),
         ("sightings.yaml", _sightings_rows),
     ]
-    items: list[CheckItem] = []
-    seen: set[tuple[str, str, str]] = set()
+    # Group by (source, row_id, citation): several elements can share one citation —
+    # e.g. the two cones of a fishing dayshape, the three balls of a vessel aground.
+    # Combine their descriptions so the citation is judged against the whole shape it
+    # prescribes, not one fragment of it.
+    order: list[tuple[str, str, str]] = []
+    grouped: dict[tuple[str, str, str], CheckItem] = {}
     for name, extractor in sources:
         data = yaml.safe_load((vault_root / name).read_text())
         for rid, situation, signal, ref, condition, length, full_signal in extractor(data):
             for citation in (s.strip() for s in ref.split("+")):
                 key = (name, rid, citation)
-                if key in seen:
-                    continue
-                seen.add(key)
-                items.append(CheckItem(
-                    source=name, row_id=rid, situation=situation,
-                    signal_desc=signal, citation=citation,
-                    rule_prose=load_rule_prose(vault_root, citation),
-                    condition=condition, length=length, full_signal=full_signal))
-    return items
+                if key not in grouped:
+                    order.append(key)
+                    grouped[key] = CheckItem(
+                        source=name, row_id=rid, situation=situation,
+                        signal_desc=signal, citation=citation,
+                        rule_prose=load_rule_prose(vault_root, citation),
+                        condition=condition, length=length, full_signal=full_signal)
+                elif signal and signal not in grouped[key].signal_desc.split("; "):
+                    grouped[key].signal_desc = f"{grouped[key].signal_desc}; {signal}".strip("; ")
+    return [grouped[k] for k in order]
