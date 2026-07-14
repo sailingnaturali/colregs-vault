@@ -86,7 +86,7 @@ entries:
   - id: being-towed-day-over-200m
     match: { situation: being_towed, condition: day }
     shapes:
-      - { id: diamond, desc: "diamond where best seen — tow exceeds 200 m", rule: "Rule 24(e)(ii)" }
+      - { id: diamond, desc: "diamond where best seen — tow exceeds 200 m", rule: "Rule 24(e)(iii)" }
   - id: mine-clearance-night
     match: { situation: mine_clearance, condition: night }
     lights:

@@ -134,7 +134,7 @@ patterns:
         rule: "Rule 24(a)(v)"
         note: "Diamond shape — tow exceeds 200 m (shown by towing vessel and tow)."
       - situation: being_towed
-        rule: "Rule 24(e)(ii)"
+        rule: "Rule 24(e)(iii)"
         note: "The towed vessel/object shows the same diamond."
   - id: minesweep-3-green-night
     arrangement: [green, green, green]
