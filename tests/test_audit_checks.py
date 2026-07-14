@@ -26,3 +26,36 @@ def test_build_checks_has_known_row():
     hauling = [i for i in items
                if i.row_id == "fishing-hauling-night" and "Annex II" in i.citation]
     assert hauling and hauling[0].citation == "Annex II 2(a)(ii)"
+
+
+def test_requirements_items_carry_condition_and_length():
+    items = build_checks(VAULT)
+    power = next(i for i in items if i.row_id == "power-under-50m-night")
+    assert power.condition == "night"
+    assert power.length == "under 50 m"
+
+
+def test_full_signal_holds_the_whole_multi_shape_arrangement():
+    # aground-day is three balls; a single deduped item must still carry all three
+    items = build_checks(VAULT)
+    aground = next(i for i in items if i.row_id == "aground-day")
+    assert aground.full_signal.count("ball") >= 3          # not just the first ball
+    # fishing-day is two cones apexes together — both must be in the context
+    fishing = next(i for i in items if i.row_id == "fishing-day")
+    assert "apex downward" in fishing.full_signal and "apex upward" in fishing.full_signal
+
+
+def test_light_options_render_as_alternatives_not_flattened():
+    # sailing-under-20m-night is (sidelights + sternlight) OR (tricolor) — either/or,
+    # so the context must not read as all shown at once.
+    items = build_checks(VAULT)
+    sailing = next(i for i in items if i.row_id == "sailing-under-20m-night")
+    assert "one of:" in sailing.full_signal
+    assert " OR " in sailing.full_signal
+
+
+def test_sightings_full_signal_is_the_observed_arrangement():
+    items = build_checks(VAULT)
+    cones = next(i for i in items if i.row_id == "fishing-cones-day")
+    assert cones.condition == "day"
+    assert "cone_down" in cones.full_signal and "cone_up" in cones.full_signal

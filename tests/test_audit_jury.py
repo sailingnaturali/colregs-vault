@@ -1,10 +1,22 @@
 from audit.checks import CheckItem
-from audit.jury import parse_verdict, get_verdict, run_jury
+from audit.jury import parse_verdict, get_verdict, run_jury, build_prompt
 
 
 def _item(prose="(a) some rule text long enough to matter."):
     return CheckItem("sightings.yaml", "row1", "fishing",
                      "white+red [night]", "Annex II 2(a)(ii)", prose)
+
+
+def test_build_prompt_includes_full_row_context():
+    item = CheckItem("requirements.yaml", "aground-day", "vessel_aground",
+                     "ball, uppermost", "Rule 30(d)(ii)", "(d)(ii) three balls...",
+                     condition="day", length="under 50 m",
+                     full_signal="ball, uppermost; ball, middle; ball, lowest")
+    _system, user = build_prompt(item)
+    assert "condition: day" in user
+    assert "vessel length: under 50 m" in user
+    assert "ball, uppermost; ball, middle; ball, lowest" in user   # whole signal, not one ball
+    assert "ball, uppermost" in user and "Rule 30(d)(ii)" in user  # the element under test
 
 
 def test_parse_verdict_normalizes_and_rejects_junk():

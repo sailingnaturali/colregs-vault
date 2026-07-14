@@ -22,8 +22,18 @@ _VERDICTS = {"ok", "wrong", "unsure"}
 
 def build_prompt(item: CheckItem) -> tuple[str, str]:
     prose = item.rule_prose or "(cited rule text not found)"
-    user = (f"RULE TEXT:\n{prose}\n\nCLAIM:\nsituation={item.situation} "
-            f"signal={item.signal_desc} cited as {item.citation}")
+    context = [f"situation: {item.situation}"]
+    if item.condition:
+        context.append(f"condition: {item.condition}")
+    if item.length:
+        context.append(f"vessel length: {item.length}")
+    if item.full_signal:
+        context.append(f"full signal shown for this row: {item.full_signal}")
+    user = (f"RULE TEXT:\n{prose}\n\nROW CONTEXT:\n" + "\n".join(context)
+            + f"\n\nCLAIM:\nthe element «{item.signal_desc}» is cited as {item.citation}.\n"
+            "Is that citation, and its sub-paragraph, correct for that element within the "
+            "full signal above? Judge the element in the context of the whole signal, not in "
+            "isolation.")
     return SYSTEM, user
 
 
