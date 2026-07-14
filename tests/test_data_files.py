@@ -16,9 +16,10 @@ from pathlib import Path
 
 import yaml
 
+from audit.refs import ref_to_file
+
 VAULT = Path(__file__).resolve().parent.parent
 RULES = VAULT / "rules" / "international"  # the curated tables cite the International regime
-ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5}
 
 
 def _iter_rule_refs(node):
@@ -32,15 +33,6 @@ def _iter_rule_refs(node):
     elif isinstance(node, list):
         for item in node:
             yield from _iter_rule_refs(item)
-
-
-def _ref_to_file(segment):
-    """Map one citation segment to its rules/*.md filename, or None if unparseable."""
-    annex = re.search(r"Annex\s+([IVX]+)", segment)
-    if annex:
-        return f"annex-{ROMAN[annex.group(1)]}.md"
-    num = re.search(r"(\d+)", segment)
-    return f"rule-{int(num.group(1)):02d}.md" if num else None
 
 
 def _collect_refs():
@@ -58,7 +50,7 @@ def test_every_rule_reference_resolves():
     refs = _collect_refs()
     assert refs, "no rule references found — did the YAML schema change?"
     for source, full_ref, segment in refs:
-        filename = _ref_to_file(segment)
+        filename = ref_to_file(segment)
         assert filename, f"{source}: unparseable rule reference {full_ref!r}"
         path = RULES / filename
         assert path.exists(), f"{source}: {full_ref!r} -> missing {path.name}"
