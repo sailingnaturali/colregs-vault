@@ -22,11 +22,12 @@ models:
     model: gpt-4o
     api_key_env: OPENAI_API_KEY
   # escalate: true -> held out of the routine jury; runs only on flagged/split rows as the
-  # strong-tier tiebreak (audit/jury.py escalate). Inert until ANTHROPIC_API_KEY is set —
-  # with no escalator available the audit degrades to the top-weight juror and says so.
-  # Confirm the model id via the claude-api skill.
+  # strong-tier tiebreak (audit/jury.py escalate). provider claude_cli shells out to the
+  # `claude` CLI, which authenticates via the Claude Code subscription — no API key. It
+  # reads CLAUDE_CODE_OAUTH_TOKEN in headless/launchd runs and the keychain interactively;
+  # available whenever `claude` is on PATH. Bump to claude-opus-4-8 for the strongest
+  # tiebreak. Confirm model ids via the claude-api skill.
   - name: claude
-    provider: anthropic
+    provider: claude_cli
     model: claude-sonnet-5
-    api_key_env: ANTHROPIC_API_KEY
     escalate: true

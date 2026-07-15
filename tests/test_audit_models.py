@@ -1,6 +1,7 @@
 from pathlib import Path
 
-from audit.models import load_model_configs, available_models
+from audit import models as models_mod
+from audit.models import _extract_json, available_models, load_model_configs
 
 CONFIG = Path(__file__).resolve().parent.parent / "audit" / "models.yaml"
 
@@ -33,3 +34,23 @@ def test_only_filter(monkeypatch):
     ]
     names = [c["name"] for c, _ in available_models(configs, only=["b"])]
     assert names == ["b"]
+
+
+def test_claude_cli_available_iff_cli_on_path(monkeypatch):
+    configs = [{"name": "claude", "provider": "claude_cli", "model": "claude-sonnet-5"}]
+    monkeypatch.setattr(models_mod.shutil, "which", lambda _n: "/usr/bin/claude")
+    assert available_models(configs)[0][1] is True
+    monkeypatch.setattr(models_mod.shutil, "which", lambda _n: None)
+    assert available_models(configs)[0][1] is False   # no key env needed, just the CLI
+
+
+def test_extract_json_trims_prose_around_verdict():
+    assert _extract_json('prefix {"verdict":"ok"} trailing') == '{"verdict":"ok"}'
+    assert _extract_json('{"a":1}') == '{"a":1}'
+    assert _extract_json("no json here") == "no json here"   # let the parser reject it
+
+
+def test_escalator_config_uses_claude_cli():
+    claude = next(c for c in load_model_configs(CONFIG) if c["name"] == "claude")
+    assert claude["provider"] == "claude_cli" and claude.get("escalate") is True
+    assert "api_key_env" not in claude          # subscription auth, no key
