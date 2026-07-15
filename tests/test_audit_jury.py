@@ -1,5 +1,5 @@
 from audit.checks import CheckItem
-from audit.jury import parse_verdict, get_verdict, run_jury, build_prompt
+from audit.jury import parse_verdict, get_verdict, run_jury, build_prompt, escalate
 
 
 def _item(prose="(a) some rule text long enough to matter."):
@@ -79,3 +79,23 @@ def test_get_verdict_handles_client_exceptions():
     assert v["verdict"] == "unsure"
     assert "model error" in v["reason"]
     assert calls["n"] == 2                               # initial + one retry
+
+
+def test_escalate_reuses_jury_verdict_but_calls_fresh_escalator():
+    calls = {"strong": 0, "held": 0}
+
+    def strong(system, user):
+        calls["strong"] += 1
+        return '{"verdict":"wrong","confidence":1,"reason":"","suggested_fix":""}'
+
+    def held(system, user):
+        calls["held"] += 1
+        return '{"verdict":"ok","confidence":1,"reason":"","suggested_fix":""}'
+
+    # 'strong' already voted in the jury -> reuse; 'held' is escalate-only -> call once.
+    jury_verdicts = {"strong": {"verdict": "ok", "confidence": 1.0,
+                                "reason": "", "suggested_fix": ""}}
+    out = escalate(_item(), jury_verdicts, {"strong": strong, "held": held})
+    assert out["strong"]["verdict"] == "ok"      # reused the jury vote, not re-asked
+    assert out["held"]["verdict"] == "ok"        # freshly called
+    assert calls == {"strong": 0, "held": 1}

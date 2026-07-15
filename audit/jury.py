@@ -80,3 +80,14 @@ def run_jury(items, clients: dict[str, Client]):
         verdicts = {name: get_verdict(fn, item) for name, fn in clients.items()}
         results.append((item, verdicts))
     return results
+
+
+def escalate(item, jury_verdicts: dict, escalators: dict[str, Client]) -> dict:
+    """Get the strong tier's verdict on one disputed row for a tiebreak.
+
+    If a strong model already voted in the jury, reuse that verdict rather than paying to
+    re-ask it; otherwise call it now. Returns {escalator_name: verdict}. Escalators are
+    normally held out of the routine jury, so this only fires on the few flagged rows.
+    """
+    return {name: jury_verdicts[name] if name in jury_verdicts else get_verdict(fn, item)
+            for name, fn in escalators.items()}

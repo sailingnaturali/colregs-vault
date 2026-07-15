@@ -21,8 +21,12 @@ models:
     base_url: https://api.openai.com/v1
     model: gpt-4o
     api_key_env: OPENAI_API_KEY
-  # Inert until ANTHROPIC_API_KEY is set. Confirm the model id via the claude-api skill.
+  # escalate: true -> held out of the routine jury; runs only on flagged/split rows as the
+  # strong-tier tiebreak (audit/jury.py escalate). Inert until ANTHROPIC_API_KEY is set —
+  # with no escalator available the audit degrades to the top-weight juror and says so.
+  # Confirm the model id via the claude-api skill.
   - name: claude
     provider: anthropic
     model: claude-sonnet-5
     api_key_env: ANTHROPIC_API_KEY
+    escalate: true

@@ -1,0 +1,21 @@
+# Regression corpus — real citation errors this vault already caught and fixed.
+#
+# Each `wrong` row is a tripwire: a citation corrupted back to a bug the vault once
+# shipped. The weighted jury must keep flagging it; a juror that stops catching it has
+# degraded. Each `correct` row is verified against the rule text — flagging one is a
+# false positive.
+#
+# GROW THIS BY HAND only when a new bug is confirmed AND fixed. Never auto-append
+# unverified flags — an unverified row poisons the tripwire.
+correct:
+  - {row_id: being-towed-day-over-200m, citation: "Rule 24(e)(iii)"}
+  - {row_id: fishing-day, citation: "Rule 26(c)(i)"}
+  - {row_id: motorsailing-night, citation: "Rule 23(a)(i)"}
+  - {row_id: sailing-under-20m-night, citation: "Rule 25(a)"}
+  - {row_id: anchored-under-50m-night, citation: "Rule 30(b)"}
+  - {row_id: aground-day, citation: "Rule 30(d)(ii)"}
+wrong:
+  - {row_id: being-towed-day-over-200m, citation: "Rule 24(e)(ii)", why: "(ii) is the sternlight, not the diamond"}
+  - {row_id: fishing-hauling-night, citation: "Annex II 2(b)", why: "2(b) is pair-trawling, not hauling"}
+  - {row_id: anchored-under-50m-night, citation: "Rule 30(a)", why: "30(a) is the two-light rig, not one light"}
+  - {row_id: towing-masthead-3-night, citation: "Rule 24(c)", why: "24(c) is pushing/alongside, not a 3-light tow"}
